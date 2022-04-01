@@ -177,5 +177,12 @@ namespace Hackathon_Project_GUI
             PocetniMeniForm pocetniMeni = new PocetniMeniForm();
             pocetniMeni.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            igriceMeniForm igrica = new igriceMeniForm();
+            igrica.Show();
+        }
     }
 }

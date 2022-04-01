@@ -97,9 +97,7 @@ namespace Hackathon_Project_GUI
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-
             this.nazadButon = new System.Windows.Forms.Button();
-
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -204,7 +202,6 @@ namespace Hackathon_Project_GUI
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(414, 13);
-
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -762,10 +759,8 @@ namespace Hackathon_Project_GUI
             // pictureBox61
             // 
             this.pictureBox61.BackColor = System.Drawing.Color.Black;
-
             this.pictureBox61.Location = new System.Drawing.Point(80, 502);
             this.pictureBox61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(27, 29);
             this.pictureBox61.TabIndex = 60;
@@ -828,6 +823,7 @@ namespace Hackathon_Project_GUI
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(16, 583);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 35);
@@ -838,6 +834,7 @@ namespace Hackathon_Project_GUI
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(559, 583);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(85, 35);
@@ -849,6 +846,7 @@ namespace Hackathon_Project_GUI
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.Location = new System.Drawing.Point(231, 12);
             this.button3.Name = "button3";
@@ -856,7 +854,7 @@ namespace Hackathon_Project_GUI
             this.button3.TabIndex = 68;
             this.button3.Text = "Lavirint";
             this.button3.UseVisualStyleBackColor = false;
-
+            // 
             // nazadButon
             // 
             this.nazadButon.Location = new System.Drawing.Point(13, 558);
@@ -866,19 +864,16 @@ namespace Hackathon_Project_GUI
             this.nazadButon.Text = "nazad";
             this.nazadButon.UseVisualStyleBackColor = true;
             this.nazadButon.Click += new System.EventHandler(this.nazadButon_Click);
-
             // 
             // igrica2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-
             this.ClientSize = new System.Drawing.Size(656, 630);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-
             this.Controls.Add(this.pictureBox65);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox64);
