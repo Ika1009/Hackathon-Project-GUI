@@ -66,7 +66,6 @@ namespace Hackathon_Project_GUI.Properties {
         internal static System.Drawing.Bitmap hitna_dugme {
             get {
                 object obj = ResourceManager.GetObject("hitna_dugme", resourceCulture);
-
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -157,6 +156,16 @@ namespace Hackathon_Project_GUI.Properties {
         internal static System.Drawing.Bitmap info_dugme {
             get {
                 object obj = ResourceManager.GetObject("info_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap info_dugme_belo {
+            get {
+                object obj = ResourceManager.GetObject("info_dugme_belo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
