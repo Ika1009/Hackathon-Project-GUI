@@ -37,9 +37,11 @@ namespace Hackathon_Project_GUI
             // 
             // igrica1Button
             // 
-            this.igrica1Button.Location = new System.Drawing.Point(97, 289);
+            this.igrica1Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.igrica1Button.Location = new System.Drawing.Point(111, 385);
+            this.igrica1Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.igrica1Button.Name = "igrica1Button";
-            this.igrica1Button.Size = new System.Drawing.Size(110, 43);
+            this.igrica1Button.Size = new System.Drawing.Size(126, 57);
             this.igrica1Button.TabIndex = 0;
             this.igrica1Button.Text = "igrica 1";
             this.igrica1Button.UseVisualStyleBackColor = true;
@@ -47,9 +49,11 @@ namespace Hackathon_Project_GUI
             // 
             // igrica2Button
             // 
-            this.igrica2Button.Location = new System.Drawing.Point(311, 288);
+            this.igrica2Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.igrica2Button.Location = new System.Drawing.Point(355, 384);
+            this.igrica2Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.igrica2Button.Name = "igrica2Button";
-            this.igrica2Button.Size = new System.Drawing.Size(109, 43);
+            this.igrica2Button.Size = new System.Drawing.Size(125, 57);
             this.igrica2Button.TabIndex = 1;
             this.igrica2Button.Text = "igrica 2";
             this.igrica2Button.UseVisualStyleBackColor = true;
@@ -57,9 +61,11 @@ namespace Hackathon_Project_GUI
             // 
             // igrica3Button
             // 
-            this.igrica3Button.Location = new System.Drawing.Point(539, 288);
+            this.igrica3Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.igrica3Button.Location = new System.Drawing.Point(616, 384);
+            this.igrica3Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.igrica3Button.Name = "igrica3Button";
-            this.igrica3Button.Size = new System.Drawing.Size(103, 42);
+            this.igrica3Button.Size = new System.Drawing.Size(118, 56);
             this.igrica3Button.TabIndex = 2;
             this.igrica3Button.Text = "igrica 3";
             this.igrica3Button.UseVisualStyleBackColor = true;
@@ -67,23 +73,26 @@ namespace Hackathon_Project_GUI
             // 
             // nazadButton
             // 
-            this.nazadButton.Location = new System.Drawing.Point(12, 479);
+            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nazadButton.Location = new System.Drawing.Point(14, 639);
+            this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(75, 23);
+            this.nazadButton.Size = new System.Drawing.Size(86, 31);
             this.nazadButton.TabIndex = 3;
-            this.nazadButton.Text = "nazad";
+            this.nazadButton.Text = "Nazad";
             this.nazadButton.UseVisualStyleBackColor = true;
             this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
             // 
             // igriceMeniForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 540);
+            this.ClientSize = new System.Drawing.Size(898, 720);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.igrica3Button);
             this.Controls.Add(this.igrica2Button);
             this.Controls.Add(this.igrica1Button);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "igriceMeniForm";
             this.Text = "igriceMeniForm";
             this.ResumeLayout(false);

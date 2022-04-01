@@ -62,9 +62,11 @@ namespace Hackathon_Project_GUI
             this.emergencyButton.TabIndex = 1;
             this.emergencyButton.Text = "emergency";
             this.emergencyButton.UseVisualStyleBackColor = true;
+
             // 
             // igriceButton
             // 
+            this.igriceButton.AutoSize = true;
             this.igriceButton.BackColor = System.Drawing.Color.Transparent;
             this.igriceButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("igriceButton.BackgroundImage")));
             this.igriceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -81,6 +83,7 @@ namespace Hackathon_Project_GUI
             // 
             // mestaButton
             // 
+            this.mestaButton.AutoSize = true;
             this.mestaButton.BackColor = System.Drawing.Color.Transparent;
             this.mestaButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.mesta_dugme21;
             this.mestaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -97,6 +100,7 @@ namespace Hackathon_Project_GUI
             // 
             // pomocButton
             // 
+            this.pomocButton.AutoSize = true;
             this.pomocButton.BackColor = System.Drawing.Color.Transparent;
             this.pomocButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pomocButton.BackgroundImage")));
             this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -112,6 +116,7 @@ namespace Hackathon_Project_GUI
             // 
             // lokacijeButton
             // 
+            this.lokacijeButton.AutoSize = true;
             this.lokacijeButton.BackColor = System.Drawing.Color.Transparent;
             this.lokacijeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lokacijeButton.BackgroundImage")));
             this.lokacijeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -129,6 +134,8 @@ namespace Hackathon_Project_GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(827, 908);
             this.Controls.Add(this.lokacijeButton);
@@ -140,9 +147,11 @@ namespace Hackathon_Project_GUI
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.Name = "PocetniMeniForm";
             this.Text = " ";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
