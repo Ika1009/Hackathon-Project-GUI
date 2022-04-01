@@ -54,5 +54,12 @@ namespace Hackathon_Project_GUI
         {
 
         }
+
+        private void pomocButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BiranjeVolonteraForm biranjeVolonteraForma = new BiranjeVolonteraForm();
+            biranjeVolonteraForma.Show();
+        }
     }
 }

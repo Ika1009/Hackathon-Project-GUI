@@ -81,9 +81,9 @@ namespace Hackathon_Project_GUI
             this.mestaButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mestaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mestaButton.ForeColor = System.Drawing.Color.Transparent;
-            this.mestaButton.Location = new System.Drawing.Point(119, 279);
+            this.mestaButton.Location = new System.Drawing.Point(147, 279);
             this.mestaButton.Name = "mestaButton";
-            this.mestaButton.Size = new System.Drawing.Size(205, 135);
+            this.mestaButton.Size = new System.Drawing.Size(137, 135);
             this.mestaButton.TabIndex = 3;
             this.mestaButton.UseVisualStyleBackColor = false;
             this.mestaButton.Click += new System.EventHandler(this.mestaButton_Click);
@@ -100,6 +100,7 @@ namespace Hackathon_Project_GUI
             this.pomocButton.Size = new System.Drawing.Size(158, 135);
             this.pomocButton.TabIndex = 4;
             this.pomocButton.UseVisualStyleBackColor = false;
+            this.pomocButton.Click += new System.EventHandler(this.pomocButton_Click);
             // 
             // lokacijeButton
             // 
