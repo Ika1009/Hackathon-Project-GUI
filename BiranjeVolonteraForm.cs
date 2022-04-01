@@ -24,10 +24,15 @@ namespace Hackathon_Project_GUI
         {
             PristupPodacima db = new PristupPodacima();
 
-            osobe=db.UzmiOsobe(prezimeTextBox.Text);
+            osobe=db.UzmiOsobe();
 
             volonteriIzBazePodatakaListBox.DataSource = osobe;
             volonteriIzBazePodatakaListBox.DisplayMember = "ceoInfo";
+
+            tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
+            
+            for (int i = 0; i < osobe.Count; i++) ;
+
         }
     }
 }
