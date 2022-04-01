@@ -62,7 +62,6 @@ namespace Hackathon_Project_GUI
             this.emergencyButton.TabIndex = 1;
             this.emergencyButton.Text = "emergency";
             this.emergencyButton.UseVisualStyleBackColor = true;
-
             // 
             // igriceButton
             // 
