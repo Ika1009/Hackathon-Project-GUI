@@ -28,53 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.imeTextBox = new System.Windows.Forms.TextBox();
+            this.prezimeTextBox = new System.Windows.Forms.TextBox();
+            this.godineTextBox = new System.Windows.Forms.TextBox();
+            this.dodajVolonteraButton = new System.Windows.Forms.Button();
+            this.brojTelefonaTextBox = new System.Windows.Forms.TextBox();
+            this.emailAdresaTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // imeTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(423, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 0;
+            this.imeTextBox.Location = new System.Drawing.Point(185, 34);
+            this.imeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.imeTextBox.Name = "imeTextBox";
+            this.imeTextBox.Size = new System.Drawing.Size(150, 23);
+            this.imeTextBox.TabIndex = 0;
             // 
-            // textBox2
+            // prezimeTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(423, 87);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 27);
-            this.textBox2.TabIndex = 1;
+            this.prezimeTextBox.Location = new System.Drawing.Point(185, 77);
+            this.prezimeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.prezimeTextBox.Name = "prezimeTextBox";
+            this.prezimeTextBox.Size = new System.Drawing.Size(150, 23);
+            this.prezimeTextBox.TabIndex = 1;
             // 
-            // textBox3
+            // godineTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(423, 157);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 27);
-            this.textBox3.TabIndex = 2;
+            this.godineTextBox.Location = new System.Drawing.Point(185, 119);
+            this.godineTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.godineTextBox.Name = "godineTextBox";
+            this.godineTextBox.Size = new System.Drawing.Size(150, 23);
+            this.godineTextBox.TabIndex = 2;
             // 
-            // button1
+            // dodajVolonteraButton
             // 
-            this.button1.Location = new System.Drawing.Point(442, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.dodajVolonteraButton.Location = new System.Drawing.Point(214, 278);
+            this.dodajVolonteraButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dodajVolonteraButton.Name = "dodajVolonteraButton";
+            this.dodajVolonteraButton.Size = new System.Drawing.Size(82, 22);
+            this.dodajVolonteraButton.TabIndex = 3;
+            this.dodajVolonteraButton.Text = "button1";
+            this.dodajVolonteraButton.UseVisualStyleBackColor = true;
+            this.dodajVolonteraButton.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // brojTelefonaTextBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.brojTelefonaTextBox.Location = new System.Drawing.Point(185, 159);
+            this.brojTelefonaTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.brojTelefonaTextBox.Name = "brojTelefonaTextBox";
+            this.brojTelefonaTextBox.Size = new System.Drawing.Size(150, 23);
+            this.brojTelefonaTextBox.TabIndex = 4;
+            // 
+            // emailAdresaTextBox
+            // 
+            this.emailAdresaTextBox.Location = new System.Drawing.Point(185, 203);
+            this.emailAdresaTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.emailAdresaTextBox.Name = "emailAdresaTextBox";
+            this.emailAdresaTextBox.Size = new System.Drawing.Size(150, 23);
+            this.emailAdresaTextBox.TabIndex = 5;
+            // 
+            // DodavanjeVolonteraForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(375, 365);
+            this.Controls.Add(this.emailAdresaTextBox);
+            this.Controls.Add(this.brojTelefonaTextBox);
+            this.Controls.Add(this.dodajVolonteraButton);
+            this.Controls.Add(this.godineTextBox);
+            this.Controls.Add(this.prezimeTextBox);
+            this.Controls.Add(this.imeTextBox);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "DodavanjeVolonteraForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -83,9 +108,11 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox imeTextBox;
+        private System.Windows.Forms.TextBox prezimeTextBox;
+        private System.Windows.Forms.TextBox godineTextBox;
+        private System.Windows.Forms.Button dodajVolonteraButton;
+        private System.Windows.Forms.TextBox brojTelefonaTextBox;
+        private System.Windows.Forms.TextBox emailAdresaTextBox;
     }
 }
