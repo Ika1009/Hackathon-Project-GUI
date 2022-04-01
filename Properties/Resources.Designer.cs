@@ -63,6 +63,16 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap i {
+            get {
+                object obj = ResourceManager.GetObject("i", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img1 {
             get {
                 object obj = ResourceManager.GetObject("img1", resourceCulture);

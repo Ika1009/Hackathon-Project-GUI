@@ -29,15 +29,20 @@ namespace Hackathon_Project_GUI
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -58,6 +63,7 @@ namespace Hackathon_Project_GUI
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Teal;
+            this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
             this.splitContainer1.Size = new System.Drawing.Size(850, 529);
             this.splitContainer1.SplitterDistance = 157;
@@ -88,6 +94,7 @@ namespace Hackathon_Project_GUI
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
             this.button1.Text = "Pretraži";
+            this.toolTip2.SetToolTip(this.button1, "Nađite parkinge u vašoj okolini.");
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -105,6 +112,18 @@ namespace Hackathon_Project_GUI
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseHover += new System.EventHandler(this.help);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.i;
+            this.pictureBox2.Image = global::Hackathon_Project_GUI.Properties.Resources.i;
+            this.pictureBox2.Location = new System.Drawing.Point(658, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox2, "Mapa svih parkinga za osobe sa invaliditetom u Nišu.");
+            // 
             // MapaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -121,6 +140,7 @@ namespace Hackathon_Project_GUI
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -131,5 +151,8 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
