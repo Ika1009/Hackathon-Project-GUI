@@ -86,7 +86,7 @@ namespace Hackathon_Project_GUI
             this.tabelaPrikazOsobaDataGriedView.BackgroundColor = System.Drawing.Color.White;
             this.tabelaPrikazOsobaDataGriedView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tabelaPrikazOsobaDataGriedView.GridColor = System.Drawing.Color.BlueViolet;
-            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(153, 252);
+            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(130, 189);
             this.tabelaPrikazOsobaDataGriedView.Name = "tabelaPrikazOsobaDataGriedView";
             this.tabelaPrikazOsobaDataGriedView.RowTemplate.Height = 25;
             this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(330, 150);
