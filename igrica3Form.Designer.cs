@@ -47,7 +47,6 @@ namespace Hackathon_Project_GUI
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pocniButton = new System.Windows.Forms.Button();
             this.vremeLabel = new System.Windows.Forms.Label();
-            this.nazadButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -249,17 +248,6 @@ namespace Hackathon_Project_GUI
             this.vremeLabel.TabIndex = 17;
             this.vremeLabel.Text = "00:60";
             // 
-            // nazadButton
-            // 
-            this.nazadButton.Location = new System.Drawing.Point(15, 956);
-            this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(86, 31);
-            this.nazadButton.TabIndex = 18;
-            this.nazadButton.Text = "Nazad";
-            this.nazadButton.UseVisualStyleBackColor = true;
-            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
-            // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -279,7 +267,6 @@ namespace Hackathon_Project_GUI
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(763, 1003);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.vremeLabel);
             this.Controls.Add(this.pocniButton);
             this.Controls.Add(this.pictureBox16);
@@ -343,7 +330,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.Button pocniButton;
         private System.Windows.Forms.Label vremeLabel;
-        private System.Windows.Forms.Button nazadButton;
         private System.Windows.Forms.Button button1;
     }
 }
