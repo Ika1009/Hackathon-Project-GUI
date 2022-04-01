@@ -14,13 +14,5 @@ namespace Hackathon_Project_GUI
         public int brojGodina { get; set; }
         public string brojTelefona { get; set; }
         public string emailAdresa { get; set; }
-        public string ceoInfo 
-        { 
-            get
-            {
-                return $"{id} {prezime} ({emailAdresa})";
-            }
-           
-        }
     }
 }
