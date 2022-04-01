@@ -11,12 +11,12 @@ namespace Hackathon_Project_GUI
 {
     public class PristupPodacima
     {
-        public List<Osoba> UzmiOsobe(string prezime)
+        public List<Osoba> UzmiOsobe()
         {
             //throw new NotImplementedException();
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("HackathonDB")))
             {
-                return connection.Query<Osoba>($"select * from Hackathon where prezime ='{prezime}'").ToList();
+                return connection.Query<Osoba>($"select * from Hackathon").ToList();
             }
         }
     }

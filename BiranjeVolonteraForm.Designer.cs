@@ -34,13 +34,15 @@ namespace Hackathon_Project_GUI
             this.nadjiVolonteraButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.tabelaPrikazOsobaDataGriedView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).BeginInit();
             this.SuspendLayout();
             // 
             // volonteriIzBazePodatakaListBox
             // 
             this.volonteriIzBazePodatakaListBox.FormattingEnabled = true;
             this.volonteriIzBazePodatakaListBox.ItemHeight = 15;
-            this.volonteriIzBazePodatakaListBox.Location = new System.Drawing.Point(12, 116);
+            this.volonteriIzBazePodatakaListBox.Location = new System.Drawing.Point(31, 139);
             this.volonteriIzBazePodatakaListBox.Name = "volonteriIzBazePodatakaListBox";
             this.volonteriIzBazePodatakaListBox.Size = new System.Drawing.Size(299, 334);
             this.volonteriIzBazePodatakaListBox.TabIndex = 0;
@@ -79,12 +81,24 @@ namespace Hackathon_Project_GUI
             this.label2.TabIndex = 4;
             this.label2.Text = "label2";
             // 
+            // tabelaPrikazOsobaDataGriedView
+            // 
+            this.tabelaPrikazOsobaDataGriedView.BackgroundColor = System.Drawing.Color.White;
+            this.tabelaPrikazOsobaDataGriedView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tabelaPrikazOsobaDataGriedView.GridColor = System.Drawing.Color.BlueViolet;
+            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(153, 252);
+            this.tabelaPrikazOsobaDataGriedView.Name = "tabelaPrikazOsobaDataGriedView";
+            this.tabelaPrikazOsobaDataGriedView.RowTemplate.Height = 25;
+            this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(330, 150);
+            this.tabelaPrikazOsobaDataGriedView.TabIndex = 5;
+            // 
             // BiranjeVolonteraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(573, 579);
+            this.Controls.Add(this.tabelaPrikazOsobaDataGriedView);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nadjiVolonteraButton);
@@ -92,6 +106,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.volonteriIzBazePodatakaListBox);
             this.Name = "BiranjeVolonteraForm";
             this.Text = "BiranjeVolonteraForm";
+            ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +119,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.Button nadjiVolonteraButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridView tabelaPrikazOsobaDataGriedView;
     }
 }
