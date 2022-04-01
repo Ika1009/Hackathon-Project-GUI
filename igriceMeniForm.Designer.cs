@@ -80,11 +80,12 @@ namespace Hackathon_Project_GUI
             // nazadButton
             // 
             this.nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+            this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nazadButton.Location = new System.Drawing.Point(11, 13);
             this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(100, 100);
+            this.nazadButton.Size = new System.Drawing.Size(47, 53);
             this.nazadButton.TabIndex = 3;
             this.nazadButton.UseVisualStyleBackColor = true;
             this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);

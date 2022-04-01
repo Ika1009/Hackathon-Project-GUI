@@ -114,8 +114,7 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.i;
-            this.pictureBox2.Image = global::Hackathon_Project_GUI.Properties.Resources.i;
+
             this.pictureBox2.Location = new System.Drawing.Point(658, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 30);
