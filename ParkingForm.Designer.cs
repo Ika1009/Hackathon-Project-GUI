@@ -30,6 +30,7 @@ namespace Hackathon_Project_GUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pretrazi = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -37,13 +38,14 @@ namespace Hackathon_Project_GUI
             this.Brojpmmesta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Napomena = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.pretrazi);
@@ -51,6 +53,15 @@ namespace Hackathon_Project_GUI
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(185, 521);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(29, 214);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Izaberite opštinu";
             // 
             // comboBox1
             // 
@@ -67,7 +78,7 @@ namespace Hackathon_Project_GUI
             this.pretrazi.Name = "pretrazi";
             this.pretrazi.Size = new System.Drawing.Size(143, 49);
             this.pretrazi.TabIndex = 2;
-            this.pretrazi.Text = "Pretrazi";
+            this.pretrazi.Text = "Pretraži";
             this.pretrazi.UseVisualStyleBackColor = true;
             this.pretrazi.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -122,14 +133,17 @@ namespace Hackathon_Project_GUI
             this.Napomena.ReadOnly = true;
             this.Napomena.Width = 375;
             // 
-            // label1
+            // button1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 214);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Izaberite opštinu";
+            this.button1.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(18, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(46, 53);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // ParkingForm
             // 
@@ -158,5 +172,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn Zona;
         private System.Windows.Forms.DataGridViewTextBoxColumn Napomena;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
