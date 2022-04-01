@@ -61,5 +61,12 @@ namespace Hackathon_Project_GUI
             BiranjeVolonteraForm biranjeVolonteraForma = new BiranjeVolonteraForm();
             biranjeVolonteraForma.Show();
         }
+
+        private void infoButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CreditsForm credits = new CreditsForm();
+            credits.Show();
+        }
     }
 }

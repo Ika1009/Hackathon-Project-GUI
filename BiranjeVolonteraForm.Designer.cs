@@ -89,7 +89,9 @@ namespace Hackathon_Project_GUI
             this.brojTelefonaKolona,
             this.emailAdresaKolona});
             this.tabelaPrikazOsobaDataGriedView.GridColor = System.Drawing.Color.BlueViolet;
+
             this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(12, 149);
+
             this.tabelaPrikazOsobaDataGriedView.Name = "tabelaPrikazOsobaDataGriedView";
             this.tabelaPrikazOsobaDataGriedView.RowTemplate.Height = 25;
             this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(625, 192);

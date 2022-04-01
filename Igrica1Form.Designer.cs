@@ -64,9 +64,12 @@ namespace Hackathon_Project_GUI
             // 
             // objekat
             // 
-            this.objekat.BackColor = System.Drawing.Color.Red;
+            this.objekat.BackColor = System.Drawing.Color.Transparent;
+            this.objekat.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.jagoda;
+            this.objekat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat.Location = new System.Drawing.Point(503, 141);
+            this.objekat.Image = global::Hackathon_Project_GUI.Properties.Resources.jagoda;
+            this.objekat.Location = new System.Drawing.Point(493, 141);
             this.objekat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat.Name = "objekat";
             this.objekat.Size = new System.Drawing.Size(109, 65);
@@ -79,7 +82,7 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Red;
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(20)))));
             this.pictureBox2.Location = new System.Drawing.Point(1, 356);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(305, 240);
@@ -90,7 +93,7 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(255)))), ((int)(((byte)(82)))));
             this.pictureBox3.Location = new System.Drawing.Point(306, 356);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(305, 240);
@@ -100,7 +103,7 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
             this.pictureBox4.Location = new System.Drawing.Point(605, 356);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(305, 240);
@@ -123,9 +126,11 @@ namespace Hackathon_Project_GUI
             // 
             // objekat2
             // 
-            this.objekat2.BackColor = System.Drawing.Color.Red;
+            this.objekat2.BackColor = System.Drawing.Color.Transparent;
+            this.objekat2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.krv;
+            this.objekat2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat2.Location = new System.Drawing.Point(523, 215);
+            this.objekat2.Location = new System.Drawing.Point(618, 75);
             this.objekat2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat2.Name = "objekat2";
             this.objekat2.Size = new System.Drawing.Size(109, 65);
@@ -138,7 +143,9 @@ namespace Hackathon_Project_GUI
             // 
             // objekat3
             // 
-            this.objekat3.BackColor = System.Drawing.Color.Red;
+            this.objekat3.BackColor = System.Drawing.Color.Transparent;
+            this.objekat3.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.srce;
+            this.objekat3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat3.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat3.Location = new System.Drawing.Point(443, 272);
             this.objekat3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -151,7 +158,9 @@ namespace Hackathon_Project_GUI
             // 
             // objekat4
             // 
-            this.objekat4.BackColor = System.Drawing.Color.Red;
+            this.objekat4.BackColor = System.Drawing.Color.Transparent;
+            this.objekat4.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.jabuka;
+            this.objekat4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat4.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat4.Location = new System.Drawing.Point(293, 75);
             this.objekat4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -164,7 +173,9 @@ namespace Hackathon_Project_GUI
             // 
             // objekat5
             // 
-            this.objekat5.BackColor = System.Drawing.Color.Yellow;
+            this.objekat5.BackColor = System.Drawing.Color.Transparent;
+            this.objekat5.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.buba;
+            this.objekat5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat5.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat5.Location = new System.Drawing.Point(677, 288);
             this.objekat5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -177,7 +188,9 @@ namespace Hackathon_Project_GUI
             // 
             // objekat6
             // 
-            this.objekat6.BackColor = System.Drawing.Color.Yellow;
+            this.objekat6.BackColor = System.Drawing.Color.Transparent;
+            this.objekat6.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.list;
+            this.objekat6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat6.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat6.Location = new System.Drawing.Point(747, 191);
             this.objekat6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -190,7 +203,9 @@ namespace Hackathon_Project_GUI
             // 
             // objekat7
             // 
-            this.objekat7.BackColor = System.Drawing.Color.Yellow;
+            this.objekat7.BackColor = System.Drawing.Color.Transparent;
+            this.objekat7.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.grasak;
+            this.objekat7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat7.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat7.Location = new System.Drawing.Point(272, 272);
             this.objekat7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -203,9 +218,11 @@ namespace Hackathon_Project_GUI
             // 
             // objekat8
             // 
-            this.objekat8.BackColor = System.Drawing.Color.Yellow;
+            this.objekat8.BackColor = System.Drawing.Color.Transparent;
+            this.objekat8.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.trava;
+            this.objekat8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat8.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat8.Location = new System.Drawing.Point(645, 117);
+            this.objekat8.Location = new System.Drawing.Point(558, 214);
             this.objekat8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat8.Name = "objekat8";
             this.objekat8.Size = new System.Drawing.Size(109, 65);
@@ -216,9 +233,11 @@ namespace Hackathon_Project_GUI
             // 
             // objekat9
             // 
-            this.objekat9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat9.BackColor = System.Drawing.Color.Transparent;
+            this.objekat9.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.borovnica;
+            this.objekat9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat9.Location = new System.Drawing.Point(346, 167);
+            this.objekat9.Location = new System.Drawing.Point(378, 167);
             this.objekat9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat9.Name = "objekat9";
             this.objekat9.Size = new System.Drawing.Size(109, 65);
@@ -228,7 +247,9 @@ namespace Hackathon_Project_GUI
             // 
             // objekat10
             // 
-            this.objekat10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat10.BackColor = System.Drawing.Color.Transparent;
+            this.objekat10.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.oblak;
+            this.objekat10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat10.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat10.Location = new System.Drawing.Point(181, 167);
             this.objekat10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -241,9 +262,11 @@ namespace Hackathon_Project_GUI
             // 
             // objekat11
             // 
-            this.objekat11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat11.BackColor = System.Drawing.Color.Transparent;
+            this.objekat11.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.cizma;
+            this.objekat11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat11.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat11.Location = new System.Drawing.Point(72, 240);
+            this.objekat11.Location = new System.Drawing.Point(68, 272);
             this.objekat11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat11.Name = "objekat11";
             this.objekat11.Size = new System.Drawing.Size(109, 65);
@@ -254,9 +277,11 @@ namespace Hackathon_Project_GUI
             // 
             // objekat12
             // 
-            this.objekat12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat12.BackColor = System.Drawing.Color.Transparent;
+            this.objekat12.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.talas;
+            this.objekat12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat12.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat12.Location = new System.Drawing.Point(759, 167);
+            this.objekat12.Location = new System.Drawing.Point(778, 118);
             this.objekat12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat12.Name = "objekat12";
             this.objekat12.Size = new System.Drawing.Size(109, 65);
