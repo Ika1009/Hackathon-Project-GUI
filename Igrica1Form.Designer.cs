@@ -331,7 +331,7 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ProgressBar progres;
+        //private System.Windows.Forms.ProgressBar progres;
         private System.Windows.Forms.PictureBox objekat2;
         private System.Windows.Forms.PictureBox objekat3;
         private System.Windows.Forms.PictureBox objekat4;

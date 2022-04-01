@@ -17,7 +17,6 @@ namespace Hackathon_Project_GUI
         {
             InitializeComponent();
 
-            
         }
 
         private void nadjiVolonteraButton_Click(object sender, EventArgs e)
@@ -29,7 +28,7 @@ namespace Hackathon_Project_GUI
             volonteriIzBazePodatakaListBox.DataSource = osobe;
             volonteriIzBazePodatakaListBox.DisplayMember = "ceoInfo";
 
-            tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
+            //tabelaPrikazOsobaDataGriedView.Columns.Add()
             
             for (int i = 0; i < osobe.Count; i++) ;
 
