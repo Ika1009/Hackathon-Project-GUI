@@ -33,13 +33,13 @@ namespace Hackathon_Project_GUI
             if (ugasiMuzikuButton.Text == "Ugasi muziku")
             {
                 ugasiMuzikuButton.Text = "Upali muziku";
-                ugasiMuzikuButton.BackColor = Color.Salmon;
+                ugasiMuzikuButton.BackColor = Color.Brown;
                 sp.Stop();
             }
             else
             {
                 ugasiMuzikuButton.Text = "Ugasi muziku";
-                ugasiMuzikuButton.BackColor = Color.LawnGreen;
+                ugasiMuzikuButton.BackColor = Color.SeaGreen;
                 pustiPesmu();
             }
 
@@ -91,6 +91,11 @@ namespace Hackathon_Project_GUI
 
         private void settingsForm_Load(object sender, EventArgs e)
         {
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

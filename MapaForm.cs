@@ -43,5 +43,10 @@ namespace Hackathon_Project_GUI
         {
 
         }
+
+        private void help(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

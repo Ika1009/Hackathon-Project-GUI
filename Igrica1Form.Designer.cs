@@ -111,6 +111,7 @@ namespace Hackathon_Project_GUI
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(805, 13);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
@@ -123,6 +124,7 @@ namespace Hackathon_Project_GUI
             // objekat2
             // 
             this.objekat2.BackColor = System.Drawing.Color.Red;
+            this.objekat2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat2.Location = new System.Drawing.Point(523, 215);
             this.objekat2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat2.Name = "objekat2";
@@ -137,6 +139,7 @@ namespace Hackathon_Project_GUI
             // objekat3
             // 
             this.objekat3.BackColor = System.Drawing.Color.Red;
+            this.objekat3.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat3.Location = new System.Drawing.Point(443, 272);
             this.objekat3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat3.Name = "objekat3";
@@ -149,6 +152,7 @@ namespace Hackathon_Project_GUI
             // objekat4
             // 
             this.objekat4.BackColor = System.Drawing.Color.Red;
+            this.objekat4.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat4.Location = new System.Drawing.Point(292, 74);
             this.objekat4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat4.Name = "objekat4";
@@ -161,6 +165,7 @@ namespace Hackathon_Project_GUI
             // objekat5
             // 
             this.objekat5.BackColor = System.Drawing.Color.Yellow;
+            this.objekat5.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat5.Location = new System.Drawing.Point(677, 288);
             this.objekat5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat5.Name = "objekat5";
@@ -173,6 +178,7 @@ namespace Hackathon_Project_GUI
             // objekat6
             // 
             this.objekat6.BackColor = System.Drawing.Color.Yellow;
+            this.objekat6.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat6.Location = new System.Drawing.Point(747, 191);
             this.objekat6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat6.Name = "objekat6";
@@ -185,6 +191,7 @@ namespace Hackathon_Project_GUI
             // objekat7
             // 
             this.objekat7.BackColor = System.Drawing.Color.Yellow;
+            this.objekat7.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat7.Location = new System.Drawing.Point(272, 272);
             this.objekat7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat7.Name = "objekat7";
@@ -197,6 +204,7 @@ namespace Hackathon_Project_GUI
             // objekat8
             // 
             this.objekat8.BackColor = System.Drawing.Color.Yellow;
+            this.objekat8.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat8.Location = new System.Drawing.Point(644, 118);
             this.objekat8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat8.Name = "objekat8";
@@ -209,6 +217,7 @@ namespace Hackathon_Project_GUI
             // objekat9
             // 
             this.objekat9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat9.Location = new System.Drawing.Point(346, 167);
             this.objekat9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat9.Name = "objekat9";
@@ -220,6 +229,7 @@ namespace Hackathon_Project_GUI
             // objekat10
             // 
             this.objekat10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat10.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat10.Location = new System.Drawing.Point(181, 167);
             this.objekat10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat10.Name = "objekat10";
@@ -232,6 +242,7 @@ namespace Hackathon_Project_GUI
             // objekat11
             // 
             this.objekat11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat11.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat11.Location = new System.Drawing.Point(72, 240);
             this.objekat11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat11.Name = "objekat11";
@@ -244,6 +255,7 @@ namespace Hackathon_Project_GUI
             // objekat12
             // 
             this.objekat12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.objekat12.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat12.Location = new System.Drawing.Point(759, 167);
             this.objekat12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat12.Name = "objekat12";
@@ -255,6 +267,7 @@ namespace Hackathon_Project_GUI
             // 
             // nazadButton
             // 
+            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nazadButton.Location = new System.Drawing.Point(12, 13);
             this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nazadButton.Name = "nazadButton";
