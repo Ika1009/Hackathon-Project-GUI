@@ -13,7 +13,7 @@ namespace Hackathon_Project_GUI
 {
     public partial class DodavanjeVolonteraForm : Form
     {
-        SqlConnection conn = new SqlConnection("Data Source=(LocalDB)/MSSQLLocalDB;AttachDbFilename=C:/Users/milos/Source/Repos/Hackathon-Project-GUI/Database1.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Server =.\\SQLEXPRESS; Database=Hackathon_Database;Trusted_Connection=True;");
         public DodavanjeVolonteraForm()
         {
             InitializeComponent();
@@ -24,9 +24,10 @@ namespace Hackathon_Project_GUI
             try
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("insert into Volonteri (id,Ime,Prezime)values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')", conn);
+                SqlCommand cmd = new SqlCommand("insert into Hackathon (ime,prezime, godine)values('" + imeTextBox.Text + "','" + prezimeTextBox.Text + "','" + godineTextBox.Text + "','" + brojTelefonaTextBox.Text + "','" + emailAdresaTextBox + "')", conn);
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("jebite se svi");
+                MessageBox.Show("Hvala puno za volontiranje!");
+                
             }
             catch (Exception ex)
             {

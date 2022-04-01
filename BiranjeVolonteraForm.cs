@@ -24,9 +24,18 @@ namespace Hackathon_Project_GUI
             PristupPodacima db = new PristupPodacima();
 
             osobe=db.UzmiOsobe();
+            tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
 
-            volonteriIzBazePodatakaListBox.DataSource = osobe;
-            volonteriIzBazePodatakaListBox.DisplayMember = "ceoInfo";
+
+            for (int i = 0; i < osobe.Count; i++) 
+            {
+                tabelaPrikazOsobaDataGriedView[0, i].Value = osobe[i].id;
+                tabelaPrikazOsobaDataGriedView[1, i].Value = osobe[i].ime;
+                tabelaPrikazOsobaDataGriedView[2, i].Value = osobe[i].prezime;
+                tabelaPrikazOsobaDataGriedView[3, i].Value = osobe[i].brojGodina;
+                tabelaPrikazOsobaDataGriedView[4, i].Value = osobe[i].emailAdresa;
+            }
+            
 
             //tabelaPrikazOsobaDataGriedView.Columns.Add()
             
