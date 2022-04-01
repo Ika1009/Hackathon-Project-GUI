@@ -114,5 +114,12 @@ namespace Hackathon_Project_GUI
             MapaForm nazad = new MapaForm();
             nazad.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PocetniMeniForm meni = new PocetniMeniForm();
+            meni.Show();
+        }
     }
 }

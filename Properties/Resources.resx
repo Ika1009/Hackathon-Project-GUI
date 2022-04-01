@@ -133,9 +133,6 @@
   <data name="info_dugme_belo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info_dugme_belo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hitna_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hitna_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="parkingmesta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parkingmesta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,6 +148,9 @@
   <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cizma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cizma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,14 +163,11 @@
   <data name="borovnica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borovnica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grasak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grasak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="buba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hitna_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hitna_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="znak_pitanja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\znak_pitanja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +193,8 @@
   <data name="oblak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oblak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mesta_dugme2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mesta_dugme22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grasak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grasak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trava" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -207,6 +204,9 @@
   </data>
   <data name="img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,7 +220,10 @@
   <data name="podesavanja_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\podesavanja_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cizma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cizma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mesta_dugme2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mesta_dugme22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoovoono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoovoono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

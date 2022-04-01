@@ -39,12 +39,14 @@ namespace Hackathon_Project_GUI
             this.Brojpmmesta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Napomena = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.comboBox1);
@@ -146,6 +148,17 @@ namespace Hackathon_Project_GUI
             this.Napomena.ReadOnly = true;
             this.Napomena.Width = 375;
             // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.logoovoono;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Location = new System.Drawing.Point(106, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(43, 56);
+            this.button2.TabIndex = 4;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // ParkingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -174,5 +187,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn Napomena;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
