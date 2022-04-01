@@ -53,6 +53,7 @@ namespace Hackathon_Project_GUI
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Black;
             this.splitContainer1.Panel1.Controls.Add(this.button2);
             this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             // 
             // splitContainer1.Panel2
             // 
@@ -65,6 +66,7 @@ namespace Hackathon_Project_GUI
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Location = new System.Drawing.Point(34, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
@@ -75,6 +77,7 @@ namespace Hackathon_Project_GUI
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(34, 135);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
@@ -85,6 +88,7 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.ErrorImage = global::Hackathon_Project_GUI.Properties.Resources.parkingmesta2;
             this.pictureBox1.Image = global::Hackathon_Project_GUI.Properties.Resources.parkingmesta2;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -101,6 +105,7 @@ namespace Hackathon_Project_GUI
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(850, 529);
             this.Controls.Add(this.splitContainer1);
+            this.Cursor = System.Windows.Forms.Cursors.Help;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MapaForm";
             this.Text = "MapaForm";
