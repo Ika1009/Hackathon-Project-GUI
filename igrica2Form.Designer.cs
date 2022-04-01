@@ -29,6 +29,7 @@ namespace Hackathon_Project_GUI
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -95,9 +96,9 @@ namespace Hackathon_Project_GUI
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
             this.pictureBox65 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.nazadButon = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox66 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -163,6 +164,7 @@ namespace Hackathon_Project_GUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -877,26 +879,13 @@ namespace Hackathon_Project_GUI
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(14, 437);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 26);
             this.button1.TabIndex = 66;
-            this.button1.Text = "back";
+            this.button1.Text = "Nazad";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(489, 437);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 26);
-            this.button2.TabIndex = 67;
-            this.button2.Text = "pomoc";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // nazadButon
             // 
@@ -908,14 +897,17 @@ namespace Hackathon_Project_GUI
             this.nazadButon.UseVisualStyleBackColor = true;
             this.nazadButon.Click += new System.EventHandler(this.nazadButon_Click);
             // 
-            // label1
+            // pictureBox66
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(240, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 15);
-            this.label1.TabIndex = 68;
-            this.label1.Text = "Lavirint";
+            this.pictureBox66.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.i;
+            this.pictureBox66.Image = global::Hackathon_Project_GUI.Properties.Resources.i;
+            this.pictureBox66.Location = new System.Drawing.Point(614, 12);
+            this.pictureBox66.Name = "pictureBox66";
+            this.pictureBox66.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox66.TabIndex = 69;
+            this.pictureBox66.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox66, "Koristeći miš pronađite svoj put kroz lavirint ne dodirujući zidove.");
             // 
             // igrica2Form
             // 
@@ -923,9 +915,8 @@ namespace Hackathon_Project_GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(574, 472);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(656, 630);
+            this.Controls.Add(this.pictureBox66);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox65);
             this.Controls.Add(this.pictureBox4);
@@ -1063,6 +1054,7 @@ namespace Hackathon_Project_GUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox66)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1139,9 +1131,9 @@ namespace Hackathon_Project_GUI
 
         private System.Windows.Forms.Button nazadButton;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
 
         private System.Windows.Forms.Button nazadButon;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox66;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
