@@ -68,7 +68,8 @@ namespace Hackathon_Project_GUI
             this.objekat.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.jagoda;
             this.objekat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat.Location = new System.Drawing.Point(503, 141);
+            this.objekat.Image = global::Hackathon_Project_GUI.Properties.Resources.jagoda;
+            this.objekat.Location = new System.Drawing.Point(493, 141);
             this.objekat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat.Name = "objekat";
             this.objekat.Size = new System.Drawing.Size(109, 65);
@@ -236,7 +237,7 @@ namespace Hackathon_Project_GUI
             this.objekat9.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.borovnica;
             this.objekat9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat9.Location = new System.Drawing.Point(346, 167);
+            this.objekat9.Location = new System.Drawing.Point(378, 167);
             this.objekat9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.objekat9.Name = "objekat9";
             this.objekat9.Size = new System.Drawing.Size(109, 65);
