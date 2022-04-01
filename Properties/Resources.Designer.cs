@@ -63,6 +63,16 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hitna_dugme {
+            get {
+                object obj = ResourceManager.GetObject("hitna_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img1 {
             get {
                 object obj = ResourceManager.GetObject("img1", resourceCulture);
@@ -143,6 +153,16 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap info_dugme {
+            get {
+                object obj = ResourceManager.GetObject("info_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mesta_dugme {
             get {
                 object obj = ResourceManager.GetObject("mesta_dugme", resourceCulture);
@@ -173,6 +193,46 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap muzika_1_on_dugme {
+            get {
+                object obj = ResourceManager.GetObject("muzika_1_on_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_2_on_dugme {
+            get {
+                object obj = ResourceManager.GetObject("muzika_2_on_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_on_dugme {
+            get {
+                object obj = ResourceManager.GetObject("muzika_on_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nazad_dugme {
+            get {
+                object obj = ResourceManager.GetObject("nazad_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap parkingmesta {
             get {
                 object obj = ResourceManager.GetObject("parkingmesta", resourceCulture);
@@ -196,6 +256,16 @@ namespace Hackathon_Project_GUI.Properties {
         internal static System.Drawing.Bitmap parkingmesta2 {
             get {
                 object obj = ResourceManager.GetObject("parkingmesta2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap podesavanja_dugme {
+            get {
+                object obj = ResourceManager.GetObject("podesavanja_dugme", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
