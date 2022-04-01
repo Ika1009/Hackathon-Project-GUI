@@ -42,70 +42,70 @@ namespace Hackathon_Project_GUI
 
             if (comboBox1.Text == "Medijana")
             {
-                dataGridView1.Rows.Add("9. бригаде", "1", "2", "");
-                dataGridView1.Rows.Add("Булевар др Зорана Ђинђића", "1", "ВЗ", "испред кућног броја 2");
-                dataGridView1.Rows.Add("Булевар др Зорана Ђинђића", "1", "ВЗ", "испред кућног броја 8");
-                dataGridView1.Rows.Add("Булевар др Зорана Ђинђића", "1", "ВЗ", "испред СИМПА");
-                dataGridView1.Rows.Add("Булевар Немањића", "1", "E", "Код пијаце „Криве ливаде“");
-                dataGridView1.Rows.Add("Византијски булевар", "3", "ВЗ", "");
-                dataGridView1.Rows.Add("Војводе Танкосића", "2", "2", "Дом здравља");
-                dataGridView1.Rows.Add("Војводе Танкосића", "1", "2", "Месна заједница „Филип Кљајић“");
-                dataGridView1.Rows.Add("Гаража “Горан Остојић”", "4", "П", "Код Дома здравља");
-                dataGridView1.Rows.Add("Доситеја Обрадовића", "2", "2", "Месна канцеларија");
-                dataGridView1.Rows.Add("Драгише Цветковић", "1", "ВЗ", "");
-                dataGridView1.Rows.Add("Јеронимова", "2", "2", "Гимназија 9. мај");
-                dataGridView1.Rows.Add("Јована Ристића", "1", "2", "Општинска организација цивилних инвалида рата");
-                dataGridView1.Rows.Add("Јована Скерлића", "1", "2", "");
-                dataGridView1.Rows.Add("Југовићева", "1", "2", "код кућног броја 24");
-                dataGridView1.Rows.Add("Кеј Кола српских сестара", "2", "2", "Војни диспанзер");
-                dataGridView1.Rows.Add("Наде Томић", "2", "1", "испред Услужног центра код бр.13");
-                dataGridView1.Rows.Add("Николе Пашића", "3", "E", "ТЦ Калча");
-                dataGridView1.Rows.Add("Николе Пашића", "4", "E", "Скупштина Града");
-                dataGridView1.Rows.Add("Обилићев венац - плато", "1", "1", "испред  Телекома");
-                dataGridView1.Rows.Add("Орловића Павла", "2", "1", "Главна пошта");
-                dataGridView1.Rows.Add("Париске Комуне", "2", "2", "ГО Медијана");
-                dataGridView1.Rows.Add("Паркиралиште Синђелићев Трг", "6", "П", "");
-                dataGridView1.Rows.Add("Паркиралиште Чаир", "3", "П", "Код источне трибине стадиона Чаир");
-                dataGridView1.Rows.Add("ПЛАТО у 9. бригаде", "3", "2", "Паркинг поред хале Чаир");
-                dataGridView1.Rows.Add("Првомајска", "1", "2", "код школе");
-                dataGridView1.Rows.Add("Пријездина", "3", "2", "Саборна Црква");
-                dataGridView1.Rows.Add("Рајићева", "2", "2", "");
-                dataGridView1.Rows.Add("Светозара Марковића", "2", "1", "Међуопштинска организација савеза слепих");
-                dataGridView1.Rows.Add("Синђелићев Трг (код Дечје библ.)", "2", "2", "Спортски савез инвалида");
-                dataGridView1.Rows.Add("Стојана Новаковића", "2", "2", "");
-                dataGridView1.Rows.Add("Страхињића бана", "1", "1", "испред кућног броја 02");
-                dataGridView1.Rows.Add("Трг 14. октобра", "2", "2", "Пошта");
-                dataGridView1.Rows.Add("Трг Краља Александра", "3", "2", "Правни и Економски факултет");
-                dataGridView1.Rows.Add("Ћирила и Методија", "3", "2", "Филозофски факултет");
-                dataGridView1.Rows.Add("Хајдук Вељкова", "3", "2", "Градска огранизација инвалида рада");
-                dataGridView1.Rows.Add("Цара Душана", "2", "1", "Републички фонд за здравствено осигурање");
-                dataGridView1.Rows.Add("Цара Душана", "1", "2", "испред кућног броја 92, на раскрсници са Првомајском");        
+                dataGridView1.Rows.Add("9. brigade", "1", "2", "");
+                dataGridView1.Rows.Add("Bulevar dr Zorana Đinđića", "1", "VЗ", "ispred kućnog broja 2");
+                dataGridView1.Rows.Add("Bulevar dr Zorana Đinđića", "1", "VЗ", "ispred kućnog broja 8");
+                dataGridView1.Rows.Add("Bulevar dr Zorana Đinđića", "1", "VЗ", "ispred Simpa");
+                dataGridView1.Rows.Add("Bulevar Nemanjića", "1", "E", "Kod pijace „Krive livade“");
+                dataGridView1.Rows.Add("Vizantijski bulevar", "3", "VЗ", "");
+                dataGridView1.Rows.Add("Vojvode Tankosića", "2", "2", "Dom zdravlja");
+                dataGridView1.Rows.Add("Vojvode Tankosića", "1", "2", "Mesna zajednica „Filip Kljajić“");
+                dataGridView1.Rows.Add("Garaža “Goran Ostojić”", "4", "P", "Kod Doma zdravlja");
+                dataGridView1.Rows.Add("Dositeja Obradovića", "2", "2", "Mesna kancelarija");
+                dataGridView1.Rows.Add("Dragiše Cvetković", "1", "VЗ", "");
+                dataGridView1.Rows.Add("Jeronimova", "2", "2", "Gimnazija 9. maj");
+                dataGridView1.Rows.Add("Jovana Ristića", "1", "2", "Opštinska organizacija civilnih invalida rata");
+                dataGridView1.Rows.Add("Jovana Skerlića", "1", "2", "");
+                dataGridView1.Rows.Add("Jugovićeva", "1", "2", "kod kućnog broja 24");
+                dataGridView1.Rows.Add("Kej kola srpskih sestara", "2", "2", "Vojni dispanzer");
+                dataGridView1.Rows.Add("Nade Tomić", "2", "1", "ispred Uslužnog centra kod br.13");
+                dataGridView1.Rows.Add("Nikole Pašića", "3", "E", "TC Kalča");
+                dataGridView1.Rows.Add("Nikole Pašića", "4", "E", "Skupština Grada");
+                dataGridView1.Rows.Add("Obilićev Venac - plato", "1", "1", "ispred Telekoma");
+                dataGridView1.Rows.Add("Orlovića Pavla", "2", "1", "Glavna pošta");
+                dataGridView1.Rows.Add("Pariske Komune", "2", "2", "GO Medijana");
+                dataGridView1.Rows.Add("Parkiralište Sinđelićev Trg", "6", "P", "");
+                dataGridView1.Rows.Add("Parkiralište Čair", "3", "P", "Kod istočne tribine stadiona Čair");
+                dataGridView1.Rows.Add("Plato u 9. Brigade", "3", "2", "Parking pored hale Čair");
+                dataGridView1.Rows.Add("Prvomajska", "1", "2", "kod škole");
+                dataGridView1.Rows.Add("Prijezdina", "3", "2", "Saborna Crkva");
+                dataGridView1.Rows.Add("Rajićeva", "2", "2", "");
+                dataGridView1.Rows.Add("Svetozara Markovića", "2", "1", "Međuopštinska organizacija saveza slepih");
+                dataGridView1.Rows.Add("Sinđelićev Trg (kod Dečje bibl.)", "2", "2", "Sportski savez invalida");
+                dataGridView1.Rows.Add("Stojana Novakovića", "2", "2", "");
+                dataGridView1.Rows.Add("Strahinjića Bana", "1", "1", "ispred kućnog broja 02");
+                dataGridView1.Rows.Add("Trg 14. oktobra", "2", "2", "Pošta");
+                dataGridView1.Rows.Add("Trg Kralja Aleksandra", "3", "2", "Pravni i Ekonomski fakultet");
+                dataGridView1.Rows.Add("Ćirila i Metodija", "3", "2", "Filozofski fakultet");
+                dataGridView1.Rows.Add("Hajduk Veljkova", "3", "2", "Gradska organizacija invalida rada");
+                dataGridView1.Rows.Add("Cara Dušana", "2", "1", "Republički font za zdravstveno osiguranje");
+                dataGridView1.Rows.Add("Cara Dušana", "1", "2", "na raskrsnici sa Prvomajskom");        
             }
 
             else if (comboBox1.Text == "Palilula")
             {
-                dataGridView1.Rows.Add("Божидарчева", "1", "ВЗ", "испред кућног броја 24");
-                dataGridView1.Rows.Add("Марина Држића", "1", "ВЗ", "Здравствена станица Делијски Вис");
+                dataGridView1.Rows.Add("Božidarčeva", "1", "VЗ", "ispred kućnog broja 24");
+                dataGridView1.Rows.Add("Marina Držića", "1", "VЗ", "Zdravstvena stanica Delijski vis");
             }
 
             else if (comboBox1.Text == "Crveni krst")
             {
-                dataGridView1.Rows.Add("Ђуке Динић", "4", "E", "Пијаца „Тврђава“");
-                dataGridView1.Rows.Add("Јелене Димитријевић", "1", "2", "преко пута амбуланте");
-                dataGridView1.Rows.Add("Кеј Мике Палигорића", "2", "2", "Зграда Универзитета");
-                dataGridView1.Rows.Add("Паркиралиште Ровче", "4", "2", "");
+                dataGridView1.Rows.Add("Đuke Dinić", "4", "E", "Pijaca „Tvrđava“");
+                dataGridView1.Rows.Add("Jelene Dimitrijević", "1", "2", "preko puta ambulante");
+                dataGridView1.Rows.Add("Kej Mike Paligorića", "2", "2", "Zgrada Univerziteta");
+                dataGridView1.Rows.Add("Parkiralište Rovče", "4", "2", "");
             }
 
             else 
             {
-                dataGridView1.Rows.Add("Kњажевачка", "4", "ВЗ", "Градско Удружење церебралне и дечије парализе Ниш");
-                dataGridView1.Rows.Add("Србињска", "4", "БЗ", "код Дурланске пијаце");
+                dataGridView1.Rows.Add("Knjaževačka", "4", "VЗ", "Gradsko Udruženje cerebralne i dečije paralize Niš");
+                dataGridView1.Rows.Add("Srbinjska", "4", "BЗ", "kod Durlanske pijace");
             }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            //textBox1.Text = "Izaberite opstinu";
+            
         }
     }
 }
