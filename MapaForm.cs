@@ -46,10 +46,7 @@ namespace Hackathon_Project_GUI
 
         private void help(object sender, EventArgs e)
         {
-            Box.Show("Mapa!");
-            this.Hide();
-            igrica1Form igrica = new igrica1Form();
-            igrica.Show();
+            
         }
     }
 }
