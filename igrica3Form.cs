@@ -80,7 +80,7 @@ namespace Hackathon_Project_GUI
         {
             foreach (var slika in pictureBoxes)
             {
-                slika.Image = Properties.Resources.znak_pitanja; //postavlja sliku na znak pitanja
+                slika.Image = Properties.Resources.debela_macka; //postavlja sliku na znak pitanja
             }
         }
         private PictureBox SlobodnoMesto()
