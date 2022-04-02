@@ -48,7 +48,7 @@ namespace Hackathon_Project_GUI
                     ("Hackathon_Project_GUI.CROWD-CHEER-SOUND-EFFECT_MP3_70K_.wav")); // uzima muziku iz resorsa iz adrese
                 sp.Play();
                 
-                //settingsForm.pustiPesmu();
+                //settingsForm.pustiPesmu()a;
 
                 imeTextBox.Clear();
 
