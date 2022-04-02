@@ -42,14 +42,17 @@
             this.gradtextBox = new System.Windows.Forms.TextBox();
             this.opstinaTextBox = new System.Windows.Forms.TextBox();
             this.polTextBox = new System.Windows.Forms.TextBox();
+
             this.SuspendLayout();
             // 
             // imeTextBox
             // 
+
             this.imeTextBox.Location = new System.Drawing.Point(148, 59);
             this.imeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.imeTextBox.Name = "imeTextBox";
             this.imeTextBox.Size = new System.Drawing.Size(110, 23);
+
             this.imeTextBox.TabIndex = 0;
             // 
             // prezimeTextBox
@@ -58,18 +61,22 @@
             this.prezimeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.prezimeTextBox.Name = "prezimeTextBox";
             this.prezimeTextBox.Size = new System.Drawing.Size(110, 23);
+
             this.prezimeTextBox.TabIndex = 1;
             // 
             // godineTextBox
             // 
+
             this.godineTextBox.Location = new System.Drawing.Point(148, 166);
             this.godineTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.godineTextBox.Name = "godineTextBox";
             this.godineTextBox.Size = new System.Drawing.Size(110, 23);
+
             this.godineTextBox.TabIndex = 2;
             // 
-            // button1
+            // dodajVolonteraButton
             // 
+
             this.button1.Location = new System.Drawing.Point(157, 350);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
@@ -165,11 +172,13 @@
             this.polTextBox.Name = "polTextBox";
             this.polTextBox.Size = new System.Drawing.Size(110, 23);
             this.polTextBox.TabIndex = 14;
+
             // 
             // DodavanjeVolonteraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.ClientSize = new System.Drawing.Size(365, 383);
             this.Controls.Add(this.polTextBox);
             this.Controls.Add(this.opstinaTextBox);
@@ -182,6 +191,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.brojTelefonaTextBox);
             this.Controls.Add(this.button1);
+
             this.Controls.Add(this.godineTextBox);
             this.Controls.Add(this.prezimeTextBox);
             this.Controls.Add(this.imeTextBox);
@@ -209,5 +219,6 @@
         private System.Windows.Forms.TextBox gradtextBox;
         private System.Windows.Forms.TextBox opstinaTextBox;
         private System.Windows.Forms.TextBox polTextBox;
+
     }
 }

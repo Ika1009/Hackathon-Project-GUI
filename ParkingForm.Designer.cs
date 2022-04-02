@@ -39,15 +39,20 @@ namespace Hackathon_Project_GUI
             this.Zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Napomena = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nazadButton = new System.Windows.Forms.Button();
+
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.pretrazi);
+
             this.panel1.Location = new System.Drawing.Point(3, 9);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -60,6 +65,7 @@ namespace Hackathon_Project_GUI
             this.label1.Location = new System.Drawing.Point(25, 160);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 15);
+
             this.label1.TabIndex = 2;
             this.label1.Text = "Izaberite opštinu";
             // 
@@ -77,10 +83,11 @@ namespace Hackathon_Project_GUI
             // 
             this.pretrazi.Location = new System.Drawing.Point(16, 264);
             this.pretrazi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+
             this.pretrazi.Name = "pretrazi";
             this.pretrazi.Size = new System.Drawing.Size(125, 37);
             this.pretrazi.TabIndex = 2;
-            this.pretrazi.Text = "Pretrazi";
+            this.pretrazi.Text = "Pretraži";
             this.pretrazi.UseVisualStyleBackColor = true;
             this.pretrazi.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -88,14 +95,17 @@ namespace Hackathon_Project_GUI
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Thistle;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Ulica,
             this.Brojpmmesta,
             this.Zona,
             this.Napomena});
+
             this.dataGridView1.Location = new System.Drawing.Point(203, 9);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
@@ -106,7 +116,7 @@ namespace Hackathon_Project_GUI
             // 
             // Ulica
             // 
-            this.Ulica.HeaderText = "Pozicija - ulica";
+            this.Ulica.HeaderText = "Ulica";
             this.Ulica.MinimumWidth = 6;
             this.Ulica.Name = "Ulica";
             this.Ulica.ReadOnly = true;
@@ -114,7 +124,7 @@ namespace Hackathon_Project_GUI
             // 
             // Brojpmmesta
             // 
-            this.Brojpmmesta.HeaderText = "Broj pm mesta";
+            this.Brojpmmesta.HeaderText = "Broj parking mesta";
             this.Brojpmmesta.MinimumWidth = 6;
             this.Brojpmmesta.Name = "Brojpmmesta";
             this.Brojpmmesta.ReadOnly = true;
@@ -146,12 +156,15 @@ namespace Hackathon_Project_GUI
             this.nazadButton.UseVisualStyleBackColor = true;
             this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
             // 
+
             // ParkingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.ClientSize = new System.Drawing.Size(858, 434);
             this.Controls.Add(this.nazadButton);
+
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -170,11 +183,15 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button pretrazi;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ulica;
         private System.Windows.Forms.DataGridViewTextBoxColumn Brojpmmesta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Zona;
         private System.Windows.Forms.DataGridViewTextBoxColumn Napomena;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button nazadButton;
+
     }
 }

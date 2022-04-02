@@ -63,5 +63,12 @@ namespace Hackathon_Project_GUI
             DodavanjeVolonteraForm dodavanjeVolonteraForma = new DodavanjeVolonteraForm();
             dodavanjeVolonteraForma.Show();
         }
+
+        private void infoButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CreditsForm credits = new CreditsForm();
+            credits.Show();
+        }
     }
 }

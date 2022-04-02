@@ -14,7 +14,9 @@ namespace Hackathon_Project_GUI
 {
     public partial class DodavanjeVolonteraForm : Form
     {
+
         SqlConnection conn = new SqlConnection("Server =.\\SQLEXPRESS; Database=Hackathon_Database;Trusted_Connection=True;");
+
         public DodavanjeVolonteraForm()
         {
             InitializeComponent();
@@ -25,6 +27,7 @@ namespace Hackathon_Project_GUI
             try
             {
                 conn.Open();
+
                 SqlCommand cmd = new SqlCommand("insert into Hackathon (ime ,prezime, brojGodina, pol, brojTelefona, grad, opstina )values('" + imeTextBox.Text + 
                     "','" + prezimeTextBox.Text + 
                     "','" + godineTextBox.Text + 
@@ -42,6 +45,7 @@ namespace Hackathon_Project_GUI
                 polTextBox.Clear();
                 opstinaTextBox.Clear();
                 
+
 
             }
             catch (Exception ex)
