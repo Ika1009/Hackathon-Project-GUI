@@ -19,12 +19,14 @@ namespace Hackathon_Project_GUI
 
     public partial class PocetniMeniForm : Form
     {
+
         public PocetniMeniForm()
         {
             
             InitializeComponent();
 
-            settingsForm.pustiPesmu();
+            
+            if (pusteno) { settingsForm.pustiPesmu()};
 
         }
         private void pomocover(object sender, EventArgs e)
