@@ -33,7 +33,6 @@ namespace Hackathon_Project_GUI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PocetniMeniForm));
             this.settingsButton = new System.Windows.Forms.Button();
-            this.emergencyButton = new System.Windows.Forms.Button();
             this.igriceButton = new System.Windows.Forms.Button();
             this.mestaButton = new System.Windows.Forms.Button();
             this.pomocButton = new System.Windows.Forms.Button();
@@ -56,25 +55,11 @@ namespace Hackathon_Project_GUI
             this.settingsButton.UseVisualStyleBackColor = false;
             this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
             // 
-            // emergencyButton
-            // 
-            this.emergencyButton.BackColor = System.Drawing.Color.Transparent;
-            this.emergencyButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.hitna_dugme;
-            this.emergencyButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.emergencyButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.emergencyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.emergencyButton.Location = new System.Drawing.Point(743, 107);
-            this.emergencyButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.emergencyButton.Name = "emergencyButton";
-            this.emergencyButton.Size = new System.Drawing.Size(69, 80);
-            this.emergencyButton.TabIndex = 1;
-            this.emergencyButton.UseVisualStyleBackColor = false;
-            // 
             // igriceButton
             // 
             this.igriceButton.AutoSize = true;
             this.igriceButton.BackColor = System.Drawing.Color.Transparent;
-            this.igriceButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("igriceButton.BackgroundImage")));
+            this.igriceButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.igrice_dugme;
             this.igriceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.igriceButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.igriceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -108,7 +93,7 @@ namespace Hackathon_Project_GUI
             // 
             this.pomocButton.AutoSize = true;
             this.pomocButton.BackColor = System.Drawing.Color.Transparent;
-            this.pomocButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pomocButton.BackgroundImage")));
+            this.pomocButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.pomoc_dugme;
             this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pomocButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pomocButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -120,6 +105,8 @@ namespace Hackathon_Project_GUI
             this.pomocButton.TabIndex = 4;
             this.pomocButton.UseVisualStyleBackColor = false;
             this.pomocButton.Click += new System.EventHandler(this.pomocButton_Click);
+            this.pomocButton.MouseEnter += new System.EventHandler(this.pomocover);
+            this.pomocButton.MouseHover += new System.EventHandler(this.pomocleave);
             // 
             // lokacijeButton
             // 
@@ -165,7 +152,6 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pomocButton);
             this.Controls.Add(this.mestaButton);
             this.Controls.Add(this.igriceButton);
-            this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.Color.Transparent;
@@ -181,7 +167,6 @@ namespace Hackathon_Project_GUI
         #endregion
 
         private System.Windows.Forms.Button settingsButton;
-        private System.Windows.Forms.Button emergencyButton;
         private System.Windows.Forms.Button igriceButton;
         private System.Windows.Forms.Button mestaButton;
         private System.Windows.Forms.Button pomocButton;

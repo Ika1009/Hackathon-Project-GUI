@@ -43,12 +43,15 @@ namespace Hackathon_Project_GUI
             this.button1.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(45, 45);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseEnter += new System.EventHandler(this.over);
+            this.button1.MouseLeave += new System.EventHandler(this.leave);
             // 
             // label1
             // 
