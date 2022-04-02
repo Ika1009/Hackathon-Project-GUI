@@ -125,9 +125,6 @@
     <value>..\Resources\img8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 
-	<data name="img6" type="System.Resources.ResXFileRef, System.Windows.Forms"></data>>
-    <value>..\Resources\img6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
   <data name="jagoda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jagoda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
@@ -135,9 +132,6 @@
   <data name="muzika_1_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muzika_1_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-
-	<data name="img4" type="System.Resources.ResXFileRef, System.Windows.Forms"></data>>
-    <value>..\Resources\img4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
   <data name="info_dugme_belo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info_dugme_belo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +187,6 @@
     <value>..\Resources\krv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 
-	<data name="hitna_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms"></data>>
-    <value>..\Resources\hitna_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   <data name="parkingmesta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parkingmesta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
@@ -218,8 +210,6 @@
   <data name="info_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-	<data name="debela_macka" type="System.Resources.ResXFileRef, System.Windows.Forms"></data>>
-    <value>..\Resources\debela_macka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
   <data name="img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

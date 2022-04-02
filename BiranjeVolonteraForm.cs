@@ -25,8 +25,8 @@ namespace Hackathon_Project_GUI
 
             osobe=db.UzmiOsobe();
 
-            volonteriIzBazePodatakaListBox.DataSource = osobe;
-            volonteriIzBazePodatakaListBox.DisplayMember = "ceoInfo";
+            /*volonteriIzBazePodatakaListBox.DataSource = osobe;
+            volonteriIzBazePodatakaListBox.DisplayMember = "ceoInfo";*/
 
             //tabelaPrikazOsobaDataGriedView.Columns.Add()
             
