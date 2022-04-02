@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="A-One-Way-Ticket-Too-Much_MP3_320K_.wav" />
+    <None Remove="CROWD-CHEER-SOUND-EFFECT_MP3_70K_.wav" />
     <None Remove="muzika 1 glasna.wav" />
     <None Remove="muzika 1.wav" />
     <None Remove="muzika 2.wav" />
@@ -19,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="CROWD-CHEER-SOUND-EFFECT_MP3_70K_.wav" />
     <EmbeddedResource Include="muzika1.wav" />
     <EmbeddedResource Include="muzika2.wav" />
   </ItemGroup>
