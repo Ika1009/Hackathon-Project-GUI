@@ -19,19 +19,27 @@ namespace Hackathon_Project_GUI
             InitializeComponent();
 
             //StreamReader sr = new StreamReader(@"dataFajl.txt");
-
-            using (StreamReader sr = new StreamReader(@"dataFajl.txt"))
+            try
             {
-                string linija;
-                while (( linija = sr.ReadLine()) != null)
+
+                using (StreamReader sr = new StreamReader(@"dataFajl.txt"))
                 {
-                    string[] reci = linija.Split(",");
-                    Osoba novaOsoba = new Osoba(reci[0], reci[1], reci[2], reci[3], reci[4], reci[5], reci[6]);
-                    osobe.Add(novaOsoba);
+                    string linija;
+                    while ((linija = sr.ReadLine()) != null)
+                    {
+                        string[] reci = linija.Split(",");
+                        Osoba novaOsoba = new Osoba(reci[0], reci[1], reci[2], reci[3], reci[4], reci[5], reci[6]);
+                        osobe.Add(novaOsoba);
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
-            tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
+
+tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
 
 
             for (int i = 0; i < osobe.Count; i++)
@@ -70,6 +78,11 @@ namespace Hackathon_Project_GUI
         private void leave(object sender, EventArgs e)
         {
             nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+        }
+
+        private void tabelaPrikazOsobaDataGriedView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }

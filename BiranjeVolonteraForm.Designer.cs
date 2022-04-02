@@ -31,6 +31,7 @@ namespace Hackathon_Project_GUI
         {
             this.label1 = new System.Windows.Forms.Label();
             this.tabelaPrikazOsobaDataGriedView = new System.Windows.Forms.DataGridView();
+            this.nazadButton = new System.Windows.Forms.Button();
             this.idKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.imeKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prezimeKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -39,16 +40,15 @@ namespace Hackathon_Project_GUI
             this.brojTelefonaKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nazadButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(257, 57);
+            this.label1.Location = new System.Drawing.Point(225, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.Size = new System.Drawing.Size(0, 15);
             this.label1.TabIndex = 3;
             // 
             // tabelaPrikazOsobaDataGriedView
@@ -67,20 +67,35 @@ namespace Hackathon_Project_GUI
             this.Column2,
             this.Column3});
             this.tabelaPrikazOsobaDataGriedView.GridColor = System.Drawing.Color.BlueViolet;
-            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(25, 81);
-            this.tabelaPrikazOsobaDataGriedView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(22, 61);
             this.tabelaPrikazOsobaDataGriedView.Name = "tabelaPrikazOsobaDataGriedView";
             this.tabelaPrikazOsobaDataGriedView.RowHeadersWidth = 51;
             this.tabelaPrikazOsobaDataGriedView.RowTemplate.Height = 25;
-            this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(992, 499);
+            this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(964, 374);
             this.tabelaPrikazOsobaDataGriedView.TabIndex = 5;
+            this.tabelaPrikazOsobaDataGriedView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tabelaPrikazOsobaDataGriedView_CellContentClick);
+            // 
+            // nazadButton
+            // 
+            this.nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+            this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nazadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nazadButton.Location = new System.Drawing.Point(10, 10);
+            this.nazadButton.Name = "nazadButton";
+            this.nazadButton.Size = new System.Drawing.Size(39, 34);
+            this.nazadButton.TabIndex = 6;
+            this.nazadButton.UseVisualStyleBackColor = true;
+            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
+            this.nazadButton.MouseEnter += new System.EventHandler(this.over);
+            this.nazadButton.MouseLeave += new System.EventHandler(this.leave);
             // 
             // idKolona
             // 
             this.idKolona.HeaderText = "id";
             this.idKolona.MinimumWidth = 6;
             this.idKolona.Name = "idKolona";
-            this.idKolona.Width = 125;
+            this.idKolona.Width = 80;
             // 
             // imeKolona
             // 
@@ -131,32 +146,15 @@ namespace Hackathon_Project_GUI
             this.Column3.Name = "Column3";
             this.Column3.Width = 125;
             // 
-            // nazadButton
-            // 
-            this.nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
-            this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nazadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nazadButton.Location = new System.Drawing.Point(12, 13);
-            this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(45, 45);
-            this.nazadButton.TabIndex = 6;
-            this.nazadButton.UseVisualStyleBackColor = true;
-            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
-            this.nazadButton.MouseEnter += new System.EventHandler(this.over);
-            this.nazadButton.MouseLeave += new System.EventHandler(this.leave);
-            // 
             // BiranjeVolonteraForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(1089, 669);
+            this.ClientSize = new System.Drawing.Size(998, 502);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.tabelaPrikazOsobaDataGriedView);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "BiranjeVolonteraForm";
             this.Text = "BiranjeVolonteraForm";
             ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).EndInit();
