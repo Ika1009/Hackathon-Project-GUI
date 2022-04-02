@@ -79,7 +79,7 @@ namespace Hackathon_Project_GUI
         public static void pustiPesmu() 
         {
             Assembly assembly;
-            Stream soundStream;
+            //Stream soundStream;
             SoundPlayer sp;
             assembly = Assembly.GetExecutingAssembly();
             sp = new SoundPlayer(assembly.GetManifestResourceStream
