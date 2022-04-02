@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
 using System.Media;
+using System.Reflection;
 //using System.Net;
 
 namespace Hackathon_Project_GUI
@@ -35,9 +36,17 @@ namespace Hackathon_Project_GUI
                     "," + gradtextBox.Text + 
                     "," + opstinaTextBox.Text);
                 MessageBox.Show("Hvala puno za volontiranje!");
-                SoundPlayer soundPlayer = new SoundPlayer("Hackathon_Project_GUI.CROWD-CHEER-SOUND-EFFECT_MP3_70K_.wav");
 
-                soundPlayer.Play();
+                //System.Media.SoundPlayer sp = new System.Media.SoundPlayer();
+
+
+                Assembly assembly;
+                //Stream soundStream;
+                SoundPlayer sp;
+                assembly = Assembly.GetExecutingAssembly();
+                sp = new SoundPlayer(assembly.GetManifestResourceStream
+                    ("Hackathon_Project_GUI.CROWD-CHEER-SOUND-EFFECT_MP3_70K_.wav")); // uzima muziku iz resorsa iz adrese
+                sp.Play();
 
 
                 imeTextBox.Clear();
