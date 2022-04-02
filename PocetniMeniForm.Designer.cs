@@ -35,9 +35,9 @@ namespace Hackathon_Project_GUI
             this.settingsButton = new System.Windows.Forms.Button();
             this.igriceButton = new System.Windows.Forms.Button();
             this.mestaButton = new System.Windows.Forms.Button();
-            this.pomocButton = new System.Windows.Forms.Button();
             this.lokacijeButton = new System.Windows.Forms.Button();
             this.infoButton = new System.Windows.Forms.Button();
+            this.pomocButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -75,6 +75,8 @@ namespace Hackathon_Project_GUI
             this.igriceButton.TabIndex = 2;
             this.igriceButton.UseVisualStyleBackColor = false;
             this.igriceButton.Click += new System.EventHandler(this.igriceButton_Click);
+            this.igriceButton.MouseEnter += new System.EventHandler(this.igriceover);
+            this.igriceButton.MouseLeave += new System.EventHandler(this.igriceleave);
             // 
             // mestaButton
             // 
@@ -91,6 +93,8 @@ namespace Hackathon_Project_GUI
             this.mestaButton.TabIndex = 3;
             this.mestaButton.UseVisualStyleBackColor = false;
             this.mestaButton.Click += new System.EventHandler(this.mestaButton_Click);
+            this.mestaButton.MouseEnter += new System.EventHandler(this.lupaover);
+            this.mestaButton.MouseLeave += new System.EventHandler(this.lupaleave);
             // 
             // pomocButton
             // 
@@ -124,6 +128,8 @@ namespace Hackathon_Project_GUI
             this.lokacijeButton.TabIndex = 5;
             this.lokacijeButton.UseVisualStyleBackColor = false;
             this.lokacijeButton.Click += new System.EventHandler(this.lokacijeButton_Click);
+            this.lokacijeButton.MouseEnter += new System.EventHandler(this.mapaover);
+            this.lokacijeButton.MouseLeave += new System.EventHandler(this.mapaleave);
             // 
             // infoButton
             // 
@@ -198,6 +204,25 @@ namespace Hackathon_Project_GUI
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // pomocButton
+            // 
+            this.pomocButton.AutoSize = true;
+            this.pomocButton.BackColor = System.Drawing.Color.Transparent;
+            this.pomocButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.pomoc_dugme;
+            this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pomocButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pomocButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pomocButton.ForeColor = System.Drawing.Color.Transparent;
+            this.pomocButton.Location = new System.Drawing.Point(463, 407);
+            this.pomocButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pomocButton.Name = "pomocButton";
+            this.pomocButton.Size = new System.Drawing.Size(206, 240);
+            this.pomocButton.TabIndex = 4;
+            this.pomocButton.UseVisualStyleBackColor = false;
+            this.pomocButton.Click += new System.EventHandler(this.pomocButton_Click);
+            this.pomocButton.MouseEnter += new System.EventHandler(this.pomocover);
+            this.pomocButton.MouseHover += new System.EventHandler(this.pomocleave);
+            // 
             // PocetniMeniForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -236,7 +261,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.Button settingsButton;
         private System.Windows.Forms.Button igriceButton;
         private System.Windows.Forms.Button mestaButton;
-        private System.Windows.Forms.Button pomocButton;
         private System.Windows.Forms.Button lokacijeButton;
         private System.Windows.Forms.Button infoButton;
         private System.Windows.Forms.Label label1;
@@ -244,6 +268,7 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button pomocButton;
     }
 }
 

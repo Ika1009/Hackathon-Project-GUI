@@ -26,16 +26,16 @@ namespace Hackathon_Project_GUI
         {
             InitializeComponent();
         }
-        bool pusteno = true;
+        public bool pusteno = true;
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             sp.Stop();
 
             if (pusteno)
             {
-                pusteno = false;
                 ugasiMuzikuButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_off_dugme;
+                pusteno = false;
                 sp.Stop();
             }
             else
@@ -46,6 +46,8 @@ namespace Hackathon_Project_GUI
             }
 
         }
+
+        
         private void over56(object sender, EventArgs e)
         {
             if (pusteno) { ugasiMuzikuButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_on_dugme_co; ; }
@@ -56,7 +58,7 @@ namespace Hackathon_Project_GUI
         private void leav56(object sender, EventArgs e)
         {
             if (pusteno) { ugasiMuzikuButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_on_dugme; ; }
-            else { ugasiMuzikuButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_on_dugme; }
+            else { ugasiMuzikuButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_off_dugme; }
         }
         private void over1(object sender, EventArgs e)
         {
@@ -125,7 +127,7 @@ namespace Hackathon_Project_GUI
             muzika1Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_1_on_dugme;
             muzika2 = false;
             muzika1 = true;
-            pustiPesmu();
+            if (pusteno) { pustiPesmu(); }
         }
 
          private void muzika2button_Click(object sender, EventArgs e)
@@ -135,7 +137,7 @@ namespace Hackathon_Project_GUI
             muzika2button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_2_on_dugme;
             muzika1 = false;
             muzika2 = true;
-            pustiPesmu();
+            if (pusteno) { pustiPesmu(); }
         }
         
         public static void pustiPesmu() 
