@@ -26,7 +26,7 @@ namespace Hackathon_Project_GUI
         {
             InitializeComponent();
         }
-        public bool pusteno = true;
+        public static bool pusteno = true;
 
         public void button1_Click(object sender, EventArgs e)
         {

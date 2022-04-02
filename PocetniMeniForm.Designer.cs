@@ -96,24 +96,6 @@ namespace Hackathon_Project_GUI
             this.mestaButton.MouseEnter += new System.EventHandler(this.lupaover);
             this.mestaButton.MouseLeave += new System.EventHandler(this.lupaleave);
             // 
-            // pomocButton
-            // 
-            this.pomocButton.AutoSize = true;
-            this.pomocButton.BackColor = System.Drawing.Color.Transparent;
-            this.pomocButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.pomoc_dugme;
-            this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pomocButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pomocButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pomocButton.ForeColor = System.Drawing.Color.Transparent;
-            this.pomocButton.Location = new System.Drawing.Point(405, 305);
-            this.pomocButton.Name = "pomocButton";
-            this.pomocButton.Size = new System.Drawing.Size(180, 180);
-            this.pomocButton.TabIndex = 4;
-            this.pomocButton.UseVisualStyleBackColor = false;
-            this.pomocButton.Click += new System.EventHandler(this.pomocButton_Click);
-            this.pomocButton.MouseEnter += new System.EventHandler(this.pomocover);
-            this.pomocButton.MouseHover += new System.EventHandler(this.pomocleave);
-            // 
             // lokacijeButton
             // 
             this.lokacijeButton.AutoSize = true;
@@ -145,13 +127,32 @@ namespace Hackathon_Project_GUI
             this.infoButton.UseVisualStyleBackColor = false;
             this.infoButton.Click += new System.EventHandler(this.infoButton_Click);
             // 
+            // pomocButton
+            // 
+            this.pomocButton.AutoSize = true;
+            this.pomocButton.BackColor = System.Drawing.Color.Transparent;
+            this.pomocButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.pomoc_dugme;
+            this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pomocButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pomocButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pomocButton.ForeColor = System.Drawing.Color.Transparent;
+            this.pomocButton.Location = new System.Drawing.Point(405, 305);
+            this.pomocButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pomocButton.Name = "pomocButton";
+            this.pomocButton.Size = new System.Drawing.Size(180, 180);
+            this.pomocButton.TabIndex = 4;
+            this.pomocButton.UseVisualStyleBackColor = false;
+            this.pomocButton.Click += new System.EventHandler(this.pomocButton_Click);
+            this.pomocButton.MouseEnter += new System.EventHandler(this.pomocover);
+            this.pomocButton.MouseHover += new System.EventHandler(this.pomocleave);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label1.Location = new System.Drawing.Point(148, 488);
+            this.label1.Location = new System.Drawing.Point(144, 488);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(165, 25);
             this.label1.TabIndex = 7;
@@ -204,25 +205,6 @@ namespace Hackathon_Project_GUI
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
-            // pomocButton
-            // 
-            this.pomocButton.AutoSize = true;
-            this.pomocButton.BackColor = System.Drawing.Color.Transparent;
-            this.pomocButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.pomoc_dugme;
-            this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pomocButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pomocButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pomocButton.ForeColor = System.Drawing.Color.Transparent;
-            this.pomocButton.Location = new System.Drawing.Point(463, 407);
-            this.pomocButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pomocButton.Name = "pomocButton";
-            this.pomocButton.Size = new System.Drawing.Size(206, 240);
-            this.pomocButton.TabIndex = 4;
-            this.pomocButton.UseVisualStyleBackColor = false;
-            this.pomocButton.Click += new System.EventHandler(this.pomocButton_Click);
-            this.pomocButton.MouseEnter += new System.EventHandler(this.pomocover);
-            this.pomocButton.MouseHover += new System.EventHandler(this.pomocleave);
-            // 
             // PocetniMeniForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -245,6 +227,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.settingsButton);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.Color.Transparent;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1682, 978);
             this.MinimumSize = new System.Drawing.Size(740, 900);
             this.Name = "PocetniMeniForm";

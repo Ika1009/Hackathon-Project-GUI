@@ -24,10 +24,7 @@ namespace Hackathon_Project_GUI
         {
             
             InitializeComponent();
-
-            
-            if (pusteno) { settingsForm.pustiPesmu()};
-
+            if (settingsForm.pusteno) { settingsForm.pustiPesmu(); }
         }
         private void pomocover(object sender, EventArgs e)
         {
@@ -89,16 +86,18 @@ namespace Hackathon_Project_GUI
 
         private void mestaButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            /*this.Hide();
             BiranjeVolonteraForm biranjeVolonteraForma = new BiranjeVolonteraForm();
-            biranjeVolonteraForma.Show();
+            biranjeVolonteraForma.Show();*/
+            MessageBox.Show("Trenutno u radovima...");
         }
 
         private void pomocButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            /*this.Hide();
             DodavanjeVolonteraForm dodavanjeVolonteraForma = new DodavanjeVolonteraForm();
-            dodavanjeVolonteraForma.Show();
+            dodavanjeVolonteraForma.Show();*/
+            MessageBox.Show("Trenutno u radovima...");
         }
 
         private void infoButton_Click(object sender, EventArgs e)
