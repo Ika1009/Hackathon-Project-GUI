@@ -42,11 +42,13 @@ namespace Hackathon_Project_GUI
             this.ugasiMuzikuButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ugasiMuzikuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ugasiMuzikuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ugasiMuzikuButton.ForeColor = System.Drawing.Color.Teal;
+            this.ugasiMuzikuButton.Font = new System.Drawing.Font("Segoe UI", 1E-09F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ugasiMuzikuButton.ForeColor = System.Drawing.Color.Transparent;
             this.ugasiMuzikuButton.Location = new System.Drawing.Point(160, 91);
             this.ugasiMuzikuButton.Name = "ugasiMuzikuButton";
             this.ugasiMuzikuButton.Size = new System.Drawing.Size(60, 60);
             this.ugasiMuzikuButton.TabIndex = 0;
+            this.ugasiMuzikuButton.Text = "Ugasi muziku";
             this.ugasiMuzikuButton.UseVisualStyleBackColor = false;
             this.ugasiMuzikuButton.Click += new System.EventHandler(this.button1_Click);
             // 

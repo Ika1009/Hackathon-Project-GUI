@@ -52,14 +52,16 @@ namespace Hackathon_Project_GUI
 
         private void mestaButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            BiranjeVolonteraForm biranjeVolonteraForma = new BiranjeVolonteraForm();
+            biranjeVolonteraForma.Show();
         }
 
         private void pomocButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            BiranjeVolonteraForm biranjeVolonteraForma = new BiranjeVolonteraForm();
-            biranjeVolonteraForma.Show();
+            DodavanjeVolonteraForm dodavanjeVolonteraForma = new DodavanjeVolonteraForm();
+            dodavanjeVolonteraForma.Show();
         }
 
         private void infoButton_Click(object sender, EventArgs e)
