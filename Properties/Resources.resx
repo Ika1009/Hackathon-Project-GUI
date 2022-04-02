@@ -160,8 +160,8 @@
   <data name="parkingmesta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parkingmesta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="muzika_1_on_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muzika_1_on_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="igrice_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\igrice_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="buba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,9 +205,6 @@
   <data name="muzika_on_dugme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muzika_on_dugme1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="info_dugme_belo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info_dugme_belo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="mesta_dugme2_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mesta_dugme2_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,14 +226,23 @@
   <data name="info_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\info_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jabuka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jabuka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="muzika_1_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muzika_1_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozadina21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozadina21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="povezivanje_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\povezivanje_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lokacije_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lokacije_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_1_on_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_1_on_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="parkingmesta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parkingmesta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,8 +289,8 @@
   <data name="img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jabuka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jabuka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="info_dugme_belo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_dugme_belo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="znak_pitanja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\znak_pitanja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -319,7 +325,7 @@
   <data name="povezivanje" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\povezivanje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="igrice_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\igrice_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mrtvi logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mrtvi logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

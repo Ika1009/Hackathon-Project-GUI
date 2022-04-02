@@ -105,5 +105,15 @@ namespace Hackathon_Project_GUI
             CreditsForm credits = new CreditsForm();
             credits.Show();
         }
+
+        private void PocetniMeniForm_Load(object sender, EventArgs e)
+        {
+            mestaButton.FlatAppearance.BorderSize = 0;
+            pomocButton.FlatAppearance.BorderSize = 0;
+            igriceButton.FlatAppearance.BorderSize = 0;
+            lokacijeButton.FlatAppearance.BorderSize = 0;
+            infoButton.FlatAppearance.BorderSize = 0;
+            settingsButton.FlatAppearance.BorderSize = 0;
+        }
     }
 }
