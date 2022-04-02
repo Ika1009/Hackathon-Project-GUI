@@ -93,6 +93,36 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap debela_macka {
+            get {
+                object obj = ResourceManager.GetObject("debela_macka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap debela_macka_co {
+            get {
+                object obj = ResourceManager.GetObject("debela_macka_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("exit_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap grasak {
             get {
                 object obj = ResourceManager.GetObject("grasak", resourceCulture);
@@ -106,6 +136,36 @@ namespace Hackathon_Project_GUI.Properties {
         internal static System.Drawing.Bitmap hitna_dugme {
             get {
                 object obj = ResourceManager.GetObject("hitna_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hitna_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("hitna_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap igrice_dugme {
+            get {
+                object obj = ResourceManager.GetObject("igrice_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap igrice_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("igrice_dugme_co", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +273,26 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap info_dugme_belo_co {
+            get {
+                object obj = ResourceManager.GetObject("info_dugme_belo_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap info_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("info_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jabuka {
             get {
                 object obj = ResourceManager.GetObject("jabuka", resourceCulture);
@@ -243,6 +323,26 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lavirint {
+            get {
+                object obj = ResourceManager.GetObject("lavirint", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lavirint_co {
+            get {
+                object obj = ResourceManager.GetObject("lavirint_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap list {
             get {
                 object obj = ResourceManager.GetObject("list", resourceCulture);
@@ -256,6 +356,26 @@ namespace Hackathon_Project_GUI.Properties {
         internal static System.Drawing.Bitmap logoovoono {
             get {
                 object obj = ResourceManager.GetObject("logoovoono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lokacije_dugme {
+            get {
+                object obj = ResourceManager.GetObject("lokacije_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lokacije_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("lokacije_dugme_co", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +403,39 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mesta_dugme2_co {
+            get {
+                object obj = ResourceManager.GetObject("mesta_dugme2_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mesta_dugme21 {
             get {
                 object obj = ResourceManager.GetObject("mesta_dugme21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_1_off_dugme {
+            get {
+                object obj = ResourceManager.GetObject("muzika_1_off_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_1_off_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("muzika_1_off_dugme_co", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +453,89 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap muzika_1_on_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("muzika_1_on_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_1_on_dugme1 {
+            get {
+                object obj = ResourceManager.GetObject("muzika_1_on_dugme1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_2_off_dugme {
+            get {
+                object obj = ResourceManager.GetObject("muzika_2_off_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_2_off_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("muzika_2_off_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap muzika_2_on_dugme {
             get {
                 object obj = ResourceManager.GetObject("muzika_2_on_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_2_on_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("muzika_2_on_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_2_on_dugme1 {
+            get {
+                object obj = ResourceManager.GetObject("muzika_2_on_dugme1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_off_dugme {
+            get {
+                object obj = ResourceManager.GetObject("muzika_off_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_off_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("muzika_off_dugme_co", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +553,39 @@ namespace Hackathon_Project_GUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap muzika_on_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("muzika_on_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muzika_on_dugme1 {
+            get {
+                object obj = ResourceManager.GetObject("muzika_on_dugme1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nazad_dugme {
             get {
                 object obj = ResourceManager.GetObject("nazad_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nazad_dugme_oc {
+            get {
+                object obj = ResourceManager.GetObject("nazad_dugme_oc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -376,6 +636,66 @@ namespace Hackathon_Project_GUI.Properties {
         internal static System.Drawing.Bitmap podesavanja_dugme {
             get {
                 object obj = ResourceManager.GetObject("podesavanja_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap podesavanja_dugme_oc {
+            get {
+                object obj = ResourceManager.GetObject("podesavanja_dugme_oc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pomoc_dugme {
+            get {
+                object obj = ResourceManager.GetObject("pomoc_dugme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pomoc_dugme_co {
+            get {
+                object obj = ResourceManager.GetObject("pomoc_dugme_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap povezivanje {
+            get {
+                object obj = ResourceManager.GetObject("povezivanje", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap povezivanje_co {
+            get {
+                object obj = ResourceManager.GetObject("povezivanje_co", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap povezivanje1 {
+            get {
+                object obj = ResourceManager.GetObject("povezivanje1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -19,6 +19,15 @@ namespace Hackathon_Project_GUI
         {
             
         }
+        private void over(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme_oc;
+        }
+
+        private void leave(object sender, EventArgs e)
+        {
+            button2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+        }
 
         private void idiNazadButton_Click(object sender, EventArgs e)
         {

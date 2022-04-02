@@ -112,130 +112,214 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pomoc_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pomoc_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="jagoda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jagoda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
-  </data>
-  <data name="muzika_1_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muzika_1_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="info_dugme_belo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info_dugme_belo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
-  </data>
-  <data name="parkingmesta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parkingmesta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="info_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mesta_dugme21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mesta_dugme23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cizma" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cizma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="muzika_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muzika_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="parkingmesta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parkingmesta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="borovnica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\borovnica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="buba" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hitna_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hitna_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="znak_pitanja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\znak_pitanja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="muzika_2_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muzika_2_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mesta_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mesta_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="krv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\krv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="parkingmesta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parkingmesta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
-  </data>
-  <data name="talas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\talas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="srce" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\srce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="oblak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\oblak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grasak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grasak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trava" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="info_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\info_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pomoc_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pomoc_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logoovoono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoovoono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="muzika_2_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_2_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nazad_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nazad_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="muzika_2_on_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_2_on_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jabuka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\jabuka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cizma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cizma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="podesavanja_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\podesavanja_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="muzika_1_off_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_1_off_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debela_macka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\debela_macka1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_dugme_belo_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_dugme_belo_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_2_off_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_2_off_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkingmesta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkingmesta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_1_on_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_1_on_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mesta_dugme2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mesta_dugme22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logoovoono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoovoono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="srce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\srce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="igrice_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\igrice_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_off_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_off_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mesta_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mesta_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lavirint_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lavirint_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lavirint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lavirint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oblak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oblak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="borovnica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\borovnica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hitna_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hitna_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="talas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\talas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_on_dugme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_on_dugme1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_dugme_belo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_dugme_belo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mesta_dugme2_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mesta_dugme2_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="povezivanje1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\povezivanje1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podesavanja_dugme_oc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podesavanja_dugme_oc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_1_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_1_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="povezivanje_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\povezivanje_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lokacije_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lokacije_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkingmesta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkingmesta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podesavanja_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podesavanja_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_off_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_off_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_on_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_on_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_2_off_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_2_off_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkingmesta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkingmesta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_1_on_dugme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_1_on_dugme1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lokacije_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lokacije_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jagoda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jagoda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hitna_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hitna_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_on_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_on_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grasak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grasak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jabuka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jabuka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="znak_pitanja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\znak_pitanja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debela_macka_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\debela_macka_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="krv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\krv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mesta_dugme21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mesta_dugme23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_2_on_dugme1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_2_on_dugme1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muzika_1_off_dugme_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muzika_1_off_dugme_co.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nazad_dugme_oc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nazad_dugme_oc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nazad_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nazad_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="povezivanje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\povezivanje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="igrice_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\igrice_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -44,5 +44,45 @@ namespace Hackathon_Project_GUI
             PocetniMeniForm pocetniMeni = new PocetniMeniForm();
             pocetniMeni.Show();
         }
+
+        private void over(object sender, EventArgs e)
+        {
+            igrica1Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.povezivanje_co;
+        }
+
+        private void leave(object sender, EventArgs e)
+        {
+            igrica1Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.povezivanje;
+        }
+
+        private void over2(object sender, EventArgs e)
+        {
+            igrica2Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.lavirint_co;
+        }
+
+        private void leave2(object sender, EventArgs e)
+        {
+            igrica2Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.lavirint;
+        }
+
+        private void over3(object sender, EventArgs e)
+        {
+            igrica3Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.debela_macka_co;
+        }
+
+        private void leave3(object sender, EventArgs e)
+        {
+            igrica3Button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.debela_macka;
+        }
+
+        private void overnaz(object sender, EventArgs e)
+        {
+            nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme_oc;
+        }
+
+        private void leavenaz(object sender, EventArgs e)
+        {
+            nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+        }
     }
 }

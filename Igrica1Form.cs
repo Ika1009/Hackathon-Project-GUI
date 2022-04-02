@@ -338,6 +338,15 @@ namespace Hackathon_Project_GUI
         private void progres3(object sender, DragEventArgs e)
         {
         }
+        private void over(object sender, EventArgs e)
+        {
+            nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme_oc;
+        }
+
+        private void leave(object sender, EventArgs e)
+        {
+            nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {

@@ -52,6 +52,8 @@ namespace Hackathon_Project_GUI
             this.ugasiMuzikuButton.Text = "Ugasi muziku";
             this.ugasiMuzikuButton.UseVisualStyleBackColor = false;
             this.ugasiMuzikuButton.Click += new System.EventHandler(this.button1_Click);
+            this.ugasiMuzikuButton.MouseEnter += new System.EventHandler(this.over56);
+            this.ugasiMuzikuButton.MouseLeave += new System.EventHandler(this.leav56);
             // 
             // nazadButton
             // 
@@ -68,6 +70,8 @@ namespace Hackathon_Project_GUI
             this.nazadButton.TabIndex = 1;
             this.nazadButton.UseVisualStyleBackColor = false;
             this.nazadButton.Click += new System.EventHandler(this.button1_Click_1);
+            this.nazadButton.MouseEnter += new System.EventHandler(this.over);
+            this.nazadButton.MouseLeave += new System.EventHandler(this.leave);
             // 
             // muzika1Button
             // 
@@ -84,11 +88,13 @@ namespace Hackathon_Project_GUI
             this.muzika1Button.TabIndex = 2;
             this.muzika1Button.UseVisualStyleBackColor = false;
             this.muzika1Button.Click += new System.EventHandler(this.muzika1Button_Click);
+            this.muzika1Button.MouseEnter += new System.EventHandler(this.over1);
+            this.muzika1Button.MouseLeave += new System.EventHandler(this.leave1);
             // 
             // muzika2button
             // 
             this.muzika2button.BackColor = System.Drawing.Color.Transparent;
-            this.muzika2button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_2_on_dugme;
+            this.muzika2button.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.muzika_2_off_dugme;
             this.muzika2button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.muzika2button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.muzika2button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

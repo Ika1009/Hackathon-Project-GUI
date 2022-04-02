@@ -49,5 +49,15 @@ namespace Hackathon_Project_GUI
             PocetniMeniForm pocetniMeniForma = new PocetniMeniForm();
             pocetniMeniForma.Show();
         }
+
+        private void over(object sender, EventArgs e)
+        {
+            nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme_oc;
+        }
+
+        private void leave(object sender, EventArgs e)
+        {
+            nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+        }
     }
 }
