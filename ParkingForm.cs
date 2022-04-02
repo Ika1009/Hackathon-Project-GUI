@@ -23,7 +23,7 @@ namespace Hackathon_Project_GUI
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace Hackathon_Project_GUI
                 dataGridView1.Rows.Add("Ćirila i Metodija", "3", "2", "Filozofski fakultet");
                 dataGridView1.Rows.Add("Hajduk Veljkova", "3", "2", "Gradska organizacija invalida rada");
                 dataGridView1.Rows.Add("Cara Dušana", "2", "1", "Republički font za zdravstveno osiguranje");
-                dataGridView1.Rows.Add("Cara Dušana", "1", "2", "na raskrsnici sa Prvomajskom");        
+                dataGridView1.Rows.Add("Cara Dušana", "1", "2", "na raskrsnici sa Prvomajskom");
             }
 
             else if (comboBox1.Text == "Palilula")
@@ -96,7 +96,7 @@ namespace Hackathon_Project_GUI
                 dataGridView1.Rows.Add("Parkiralište Rovče", "4", "2", "");
             }
 
-            else 
+            else
             {
                 dataGridView1.Rows.Add("Knjaževačka", "4", "VЗ", "Gradsko Udruženje cerebralne i dečije paralize Niš");
                 dataGridView1.Rows.Add("Srbinjska", "4", "BЗ", "kod Durlanske pijace");
@@ -105,7 +105,7 @@ namespace Hackathon_Project_GUI
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void nazadButton_Click(object sender, EventArgs e)
@@ -114,19 +114,20 @@ namespace Hackathon_Project_GUI
             MapaForm mapaForm = new MapaForm();
             mapaForm.Show();
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            MapaForm nazad = new MapaForm();
-            nazad.Show();
-        }
+            void button1_Click_1(object sender, EventArgs e)
+            {
+                this.Hide();
+                MapaForm nazad = new MapaForm();
+                nazad.Show();
+            }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            PocetniMeniForm meni = new PocetniMeniForm();
-            meni.Show();
+            void button2_Click(object sender, EventArgs e)
+            {
+                this.Hide();
+                PocetniMeniForm meni = new PocetniMeniForm();
+                meni.Show();
 
+            }
         }
     }
 }

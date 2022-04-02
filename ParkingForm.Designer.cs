@@ -190,7 +190,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn Brojpmmesta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Zona;
         private System.Windows.Forms.DataGridViewTextBoxColumn Napomena;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button nazadButton;
 
     }
