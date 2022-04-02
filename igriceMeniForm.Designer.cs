@@ -47,9 +47,9 @@ namespace Hackathon_Project_GUI
             this.igrica1Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.igrica1Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.igrica1Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.igrica1Button.Location = new System.Drawing.Point(60, 253);
+            this.igrica1Button.Location = new System.Drawing.Point(49, 234);
             this.igrica1Button.Name = "igrica1Button";
-            this.igrica1Button.Size = new System.Drawing.Size(131, 112);
+            this.igrica1Button.Size = new System.Drawing.Size(150, 150);
             this.igrica1Button.TabIndex = 0;
             this.igrica1Button.UseVisualStyleBackColor = true;
             this.igrica1Button.Click += new System.EventHandler(this.igrica1Button_Click);
@@ -62,9 +62,9 @@ namespace Hackathon_Project_GUI
             this.igrica2Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.igrica2Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.igrica2Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.igrica2Button.Location = new System.Drawing.Point(61, 253);
+            this.igrica2Button.Location = new System.Drawing.Point(50, 234);
             this.igrica2Button.Name = "igrica2Button";
-            this.igrica2Button.Size = new System.Drawing.Size(131, 112);
+            this.igrica2Button.Size = new System.Drawing.Size(150, 150);
             this.igrica2Button.TabIndex = 1;
             this.igrica2Button.UseVisualStyleBackColor = true;
             this.igrica2Button.Click += new System.EventHandler(this.igrica2Button_Click);
@@ -77,9 +77,9 @@ namespace Hackathon_Project_GUI
             this.igrica3Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.igrica3Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.igrica3Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.igrica3Button.Location = new System.Drawing.Point(60, 253);
+            this.igrica3Button.Location = new System.Drawing.Point(50, 234);
             this.igrica3Button.Name = "igrica3Button";
-            this.igrica3Button.Size = new System.Drawing.Size(131, 112);
+            this.igrica3Button.Size = new System.Drawing.Size(150, 150);
             this.igrica3Button.TabIndex = 2;
             this.igrica3Button.UseVisualStyleBackColor = true;
             this.igrica3Button.Click += new System.EventHandler(this.igrica3Button_Click);
