@@ -272,7 +272,7 @@ namespace Hackathon_Project_GUI
             this.button1.Location = new System.Drawing.Point(57, 24);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 53);
+            this.button1.Size = new System.Drawing.Size(45, 45);
             this.button1.TabIndex = 19;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);

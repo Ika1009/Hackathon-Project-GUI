@@ -46,9 +46,9 @@ namespace Hackathon_Project_GUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(225, 43);
+            this.label1.Location = new System.Drawing.Point(257, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 3;
             // 
             // tabelaPrikazOsobaDataGriedView
@@ -67,72 +67,93 @@ namespace Hackathon_Project_GUI
             this.Column2,
             this.Column3});
             this.tabelaPrikazOsobaDataGriedView.GridColor = System.Drawing.Color.BlueViolet;
-            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(22, 61);
-
+            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(25, 81);
+            this.tabelaPrikazOsobaDataGriedView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tabelaPrikazOsobaDataGriedView.Name = "tabelaPrikazOsobaDataGriedView";
+            this.tabelaPrikazOsobaDataGriedView.RowHeadersWidth = 51;
             this.tabelaPrikazOsobaDataGriedView.RowTemplate.Height = 25;
-            this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(868, 374);
+            this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(992, 499);
             this.tabelaPrikazOsobaDataGriedView.TabIndex = 5;
             // 
             // idKolona
             // 
             this.idKolona.HeaderText = "id";
+            this.idKolona.MinimumWidth = 6;
             this.idKolona.Name = "idKolona";
+            this.idKolona.Width = 125;
             // 
             // imeKolona
             // 
             this.imeKolona.HeaderText = "ime";
+            this.imeKolona.MinimumWidth = 6;
             this.imeKolona.Name = "imeKolona";
+            this.imeKolona.Width = 125;
             // 
             // prezimeKolona
             // 
             this.prezimeKolona.HeaderText = "prezime";
+            this.prezimeKolona.MinimumWidth = 6;
             this.prezimeKolona.Name = "prezimeKolona";
+            this.prezimeKolona.Width = 125;
             // 
             // BrojGodinaKolona
             // 
             this.BrojGodinaKolona.HeaderText = "Broj Godina";
+            this.BrojGodinaKolona.MinimumWidth = 6;
             this.BrojGodinaKolona.Name = "BrojGodinaKolona";
+            this.BrojGodinaKolona.Width = 125;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Pol";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // brojTelefonaKolona
             // 
             this.brojTelefonaKolona.HeaderText = "Broj Telefona";
+            this.brojTelefonaKolona.MinimumWidth = 6;
             this.brojTelefonaKolona.Name = "brojTelefonaKolona";
+            this.brojTelefonaKolona.Width = 125;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Grad";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Opstina";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
             // 
             // nazadButton
             // 
-            this.nazadButton.Location = new System.Drawing.Point(12, 455);
+            this.nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+            this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nazadButton.Location = new System.Drawing.Point(12, 13);
+            this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(75, 23);
+            this.nazadButton.Size = new System.Drawing.Size(45, 45);
             this.nazadButton.TabIndex = 6;
-            this.nazadButton.Text = "nazad";
             this.nazadButton.UseVisualStyleBackColor = true;
             this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
             // 
             // BiranjeVolonteraForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(953, 502);
+            this.ClientSize = new System.Drawing.Size(1089, 669);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.tabelaPrikazOsobaDataGriedView);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "BiranjeVolonteraForm";
             this.Text = "BiranjeVolonteraForm";
             ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).EndInit();
