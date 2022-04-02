@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 //using System.Net;
 
 namespace Hackathon_Project_GUI
 {
     public partial class DodavanjeVolonteraForm : Form
     {
-
-        SqlConnection conn = new SqlConnection("Server =.\\SQLEXPRESS; Database=Hackathon_Database;Trusted_Connection=True;");
 
         public DodavanjeVolonteraForm()
         {
@@ -24,18 +23,16 @@ namespace Hackathon_Project_GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            StreamWriter sw = File.AppendText(@"dataFajl.txt");
             try
             {
-                conn.Open();
-
-                SqlCommand cmd = new SqlCommand("insert into Hackathon (ime ,prezime, brojGodina, pol, brojTelefona, grad, opstina )values('" + imeTextBox.Text + 
-                    "','" + prezimeTextBox.Text + 
-                    "','" + godineTextBox.Text + 
-                    "','" + polTextBox.Text + 
-                    "','" + brojTelefonaTextBox.Text + 
-                    "','" + gradtextBox.Text + 
-                    "','" + opstinaTextBox.Text +"')", conn);
-                cmd.ExecuteNonQuery();
+                sw.WriteLine(imeTextBox.Text + 
+                    "," + prezimeTextBox.Text + 
+                    "," + godineTextBox.Text + 
+                    "," + polTextBox.Text + 
+                    "," + brojTelefonaTextBox.Text + 
+                    "," + gradtextBox.Text + 
+                    "," + opstinaTextBox.Text);
                 MessageBox.Show("Hvala puno za volontiranje!");
                 imeTextBox.Clear();
                 prezimeTextBox.Clear();
@@ -44,7 +41,7 @@ namespace Hackathon_Project_GUI
                 gradtextBox.Clear();
                 polTextBox.Clear();
                 opstinaTextBox.Clear();
-                
+                sw.Close();
 
 
             }
@@ -52,7 +49,6 @@ namespace Hackathon_Project_GUI
             {
                 MessageBox.Show(ex.Message);
             }
-            conn.Close();
         }
 
         private void nazadButton_Click(object sender, EventArgs e)

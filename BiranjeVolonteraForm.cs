@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Hackathon_Project_GUI
 {
@@ -16,15 +17,26 @@ namespace Hackathon_Project_GUI
         public BiranjeVolonteraForm()
         {
             InitializeComponent();
-            PristupPodacima db = new PristupPodacima();
 
-            osobe = db.UzmiOsobe();
+            //StreamReader sr = new StreamReader(@"dataFajl.txt");
+
+            using (StreamReader sr = new StreamReader(@"dataFajl.txt"))
+            {
+                string linija;
+                while (( linija = sr.ReadLine()) != null)
+                {
+                    string[] reci = linija.Split(",");
+                    Osoba novaOsoba = new Osoba(reci[0], reci[1], reci[2], reci[3], reci[4], reci[5], reci[6]);
+                    osobe.Add(novaOsoba);
+                }
+            }
+
             tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
 
 
             for (int i = 0; i < osobe.Count; i++)
             {
-                tabelaPrikazOsobaDataGriedView[0, i].Value = osobe[i].id;
+                tabelaPrikazOsobaDataGriedView[0, i].Value = i+1;
                 tabelaPrikazOsobaDataGriedView[1, i].Value = osobe[i].ime;
                 tabelaPrikazOsobaDataGriedView[2, i].Value = osobe[i].prezime;
                 tabelaPrikazOsobaDataGriedView[3, i].Value = osobe[i].pol;
