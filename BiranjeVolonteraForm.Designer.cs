@@ -57,7 +57,7 @@ namespace Hackathon_Project_GUI
             // 
             this.tabelaPrikazOsobaDataGriedView.AllowUserToAddRows = false;
             this.tabelaPrikazOsobaDataGriedView.AllowUserToDeleteRows = false;
-            this.tabelaPrikazOsobaDataGriedView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(60)))), ((int)(((byte)(126)))));
+            this.tabelaPrikazOsobaDataGriedView.BackgroundColor = System.Drawing.Color.SkyBlue;
             this.tabelaPrikazOsobaDataGriedView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tabelaPrikazOsobaDataGriedView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idKolona,
@@ -154,7 +154,7 @@ namespace Hackathon_Project_GUI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(60)))), ((int)(((byte)(126)))));
+            this.label2.ForeColor = System.Drawing.Color.MediumPurple;
             this.label2.Location = new System.Drawing.Point(342, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(368, 41);

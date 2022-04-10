@@ -51,6 +51,8 @@
             // 
             // imeTextBox
             // 
+            this.imeTextBox.AcceptsReturn = true;
+            this.imeTextBox.AcceptsTab = true;
             this.imeTextBox.Location = new System.Drawing.Point(185, 107);
             this.imeTextBox.Name = "imeTextBox";
             this.imeTextBox.Size = new System.Drawing.Size(125, 27);
@@ -58,6 +60,8 @@
             // 
             // prezimeTextBox
             // 
+            this.prezimeTextBox.AcceptsReturn = true;
+            this.prezimeTextBox.AcceptsTab = true;
             this.prezimeTextBox.Location = new System.Drawing.Point(185, 147);
             this.prezimeTextBox.Name = "prezimeTextBox";
             this.prezimeTextBox.Size = new System.Drawing.Size(125, 27);
@@ -65,26 +69,31 @@
             // 
             // godineTextBox
             // 
+            this.godineTextBox.AcceptsReturn = true;
+            this.godineTextBox.AcceptsTab = true;
             this.godineTextBox.Location = new System.Drawing.Point(185, 227);
             this.godineTextBox.Name = "godineTextBox";
             this.godineTextBox.Size = new System.Drawing.Size(125, 27);
-            this.godineTextBox.TabIndex = 2;
+            this.godineTextBox.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LawnGreen;
+            this.button1.BackColor = System.Drawing.Color.MediumPurple;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(159, 445);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 3;
+            this.button1.TabIndex = 7;
             this.button1.Text = "Potvrdi";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // brojTelefonaTextBox
             // 
+            this.brojTelefonaTextBox.AcceptsReturn = true;
+            this.brojTelefonaTextBox.AcceptsTab = true;
             this.brojTelefonaTextBox.Location = new System.Drawing.Point(185, 267);
             this.brojTelefonaTextBox.Name = "brojTelefonaTextBox";
             this.brojTelefonaTextBox.Size = new System.Drawing.Size(125, 27);
@@ -101,7 +110,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 107);
+            this.label2.Location = new System.Drawing.Point(80, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 20);
             this.label2.TabIndex = 7;
@@ -110,7 +119,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(93, 151);
+            this.label3.Location = new System.Drawing.Point(80, 150);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(62, 20);
             this.label3.TabIndex = 8;
@@ -119,7 +128,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(93, 231);
+            this.label4.Location = new System.Drawing.Point(80, 230);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 20);
             this.label4.TabIndex = 9;
@@ -128,7 +137,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(93, 271);
+            this.label5.Location = new System.Drawing.Point(80, 270);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 20);
             this.label5.TabIndex = 10;
@@ -144,7 +153,7 @@
             this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nazadButton.Name = "nazadButton";
             this.nazadButton.Size = new System.Drawing.Size(45, 45);
-            this.nazadButton.TabIndex = 11;
+            this.nazadButton.TabIndex = 8;
             this.nazadButton.UseVisualStyleBackColor = true;
             this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
             this.nazadButton.MouseEnter += new System.EventHandler(this.over);
@@ -152,30 +161,36 @@
             // 
             // gradtextBox
             // 
+            this.gradtextBox.AcceptsReturn = true;
+            this.gradtextBox.AcceptsTab = true;
             this.gradtextBox.Location = new System.Drawing.Point(185, 307);
             this.gradtextBox.Name = "gradtextBox";
             this.gradtextBox.Size = new System.Drawing.Size(125, 27);
-            this.gradtextBox.TabIndex = 12;
+            this.gradtextBox.TabIndex = 5;
             this.gradtextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // opstinaTextBox
             // 
+            this.opstinaTextBox.AcceptsReturn = true;
+            this.opstinaTextBox.AcceptsTab = true;
             this.opstinaTextBox.Location = new System.Drawing.Point(185, 347);
             this.opstinaTextBox.Name = "opstinaTextBox";
             this.opstinaTextBox.Size = new System.Drawing.Size(125, 27);
-            this.opstinaTextBox.TabIndex = 13;
+            this.opstinaTextBox.TabIndex = 6;
             // 
             // polTextBox
             // 
+            this.polTextBox.AcceptsReturn = true;
+            this.polTextBox.AcceptsTab = true;
             this.polTextBox.Location = new System.Drawing.Point(185, 187);
             this.polTextBox.Name = "polTextBox";
             this.polTextBox.Size = new System.Drawing.Size(125, 27);
-            this.polTextBox.TabIndex = 14;
+            this.polTextBox.TabIndex = 2;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(93, 191);
+            this.label6.Location = new System.Drawing.Point(80, 190);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 20);
             this.label6.TabIndex = 15;
@@ -184,7 +199,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(93, 311);
+            this.label7.Location = new System.Drawing.Point(80, 310);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 20);
             this.label7.TabIndex = 16;
@@ -193,7 +208,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(93, 351);
+            this.label8.Location = new System.Drawing.Point(80, 350);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 20);
             this.label8.TabIndex = 17;

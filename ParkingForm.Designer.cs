@@ -46,7 +46,7 @@ namespace Hackathon_Project_GUI
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel1.BackColor = System.Drawing.Color.Tomato;
             this.panel1.Controls.Add(this.nazadButton);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.comboBox1);
@@ -105,13 +105,14 @@ namespace Hackathon_Project_GUI
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Thistle;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.SkyBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Ulica,
             this.Brojpmmesta,
             this.Zona,
             this.Napomena});
+            this.dataGridView1.GridColor = System.Drawing.Color.MediumPurple;
             this.dataGridView1.Location = new System.Drawing.Point(232, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;

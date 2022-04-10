@@ -33,14 +33,17 @@ namespace Hackathon_Project_GUI
         private Point firstPoint = new Point();
         public void KRETANJE()
         {
+            
             objekat.MouseDown += (ss, ee) => { 
                 if (ee.Button == System.Windows.Forms.MouseButtons.Left) 
                 { firstPoint = Control.MousePosition; } };
+                objekat.Cursor = System.Windows.Forms.Cursors.Hand;
             objekat.MouseMove += (ss, ee) => { 
                 if(ee.Button == System.Windows.Forms.MouseButtons.Left)
                 {
                     Point temp = Control.MousePosition;
                     Point res = new Point(firstPoint.X - temp.X, firstPoint.Y - temp.Y);
+                    
 
                     objekat.Location = new Point(objekat.Location.X - res.X, objekat.Location.Y - res.Y);
                     firstPoint = temp;
