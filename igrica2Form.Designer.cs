@@ -30,6 +30,7 @@ namespace Hackathon_Project_GUI
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(igrica2Form));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -869,7 +870,7 @@ namespace Hackathon_Project_GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(750, 840);
+            this.ClientSize = new System.Drawing.Size(647, 605);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox65);
             this.Controls.Add(this.pictureBox4);
@@ -938,8 +939,9 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox63);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.HelpButton = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "igrica2Form";
-            this.Text = "igrica2Form";
+            this.Text = "Lavirint";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.igrica2Form_FormClosed);
             this.Load += new System.EventHandler(this.igrica2Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

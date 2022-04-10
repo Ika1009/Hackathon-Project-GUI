@@ -298,6 +298,9 @@ namespace Hackathon_Project_GUI
             if (tacno == 12)
             {
                 MessageBox.Show("Pogodili ste sve! Kraj igre!");
+                this.Hide(); // sakriva ovu formu
+                igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
+                igriceMeni.Show(); // pokazuje formu - igriceMeniForma
             }
             else
             {
