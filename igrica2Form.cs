@@ -45,6 +45,8 @@ namespace Hackathon_Project_GUI
 
         private void movetostart()
         {
+            Cursor cur = new Cursor(Application.StartupPath + "\\smajli.cur");
+            this.Cursor = cur;
             Point startingpoint = pictureBox61.Location;
             startingpoint.Offset(10, 15);
             Cursor.Position = PointToScreen(startingpoint);
@@ -83,6 +85,76 @@ namespace Hackathon_Project_GUI
         private void leave(object sender, EventArgs e)
         {
             button1.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox48_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox50_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox41_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox53_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox42_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox59_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox58_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox51_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox36_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
