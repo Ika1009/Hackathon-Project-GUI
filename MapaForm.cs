@@ -57,5 +57,11 @@ namespace Hackathon_Project_GUI
         {
             
         }
+
+        private void MapaForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PocetniMeniForm.turnOffMusic();
+
+        }
     }
 }

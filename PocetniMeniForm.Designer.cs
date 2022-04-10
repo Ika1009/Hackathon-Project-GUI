@@ -225,13 +225,13 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.mestaButton);
             this.Controls.Add(this.igriceButton);
             this.Controls.Add(this.settingsButton);
-            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1682, 978);
             this.MinimumSize = new System.Drawing.Size(740, 900);
             this.Name = "PocetniMeniForm";
             this.Text = " ";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PocetniMeniForm_FormClosed);
             this.Load += new System.EventHandler(this.PocetniMeniForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

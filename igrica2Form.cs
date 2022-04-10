@@ -156,5 +156,10 @@ namespace Hackathon_Project_GUI
         {
 
         }
+
+        private void igrica2Form_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PocetniMeniForm.turnOffMusic();
+        }
     }
 }

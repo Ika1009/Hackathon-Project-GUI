@@ -69,10 +69,9 @@ namespace Hackathon_Project_GUI
             this.objekat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.objekat.Image = global::Hackathon_Project_GUI.Properties.Resources.jagoda;
-            this.objekat.Location = new System.Drawing.Point(493, 141);
-            this.objekat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat.Location = new System.Drawing.Point(431, 106);
             this.objekat.Name = "objekat";
-            this.objekat.Size = new System.Drawing.Size(109, 65);
+            this.objekat.Size = new System.Drawing.Size(95, 49);
             this.objekat.TabIndex = 0;
             this.objekat.TabStop = false;
             this.objekat.Tag = "objekat";
@@ -83,9 +82,10 @@ namespace Hackathon_Project_GUI
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(32)))), ((int)(((byte)(20)))));
-            this.pictureBox2.Location = new System.Drawing.Point(1, 356);
+            this.pictureBox2.Location = new System.Drawing.Point(1, 267);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(305, 240);
+            this.pictureBox2.Size = new System.Drawing.Size(267, 180);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.progres3);
@@ -94,9 +94,10 @@ namespace Hackathon_Project_GUI
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(255)))), ((int)(((byte)(82)))));
-            this.pictureBox3.Location = new System.Drawing.Point(306, 356);
+            this.pictureBox3.Location = new System.Drawing.Point(268, 267);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(305, 240);
+            this.pictureBox3.Size = new System.Drawing.Size(267, 180);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.DragLeave += new System.EventHandler(this.progres2);
@@ -104,9 +105,10 @@ namespace Hackathon_Project_GUI
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(199)))), ((int)(((byte)(205)))));
-            this.pictureBox4.Location = new System.Drawing.Point(605, 356);
+            this.pictureBox4.Location = new System.Drawing.Point(529, 267);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(305, 240);
+            this.pictureBox4.Size = new System.Drawing.Size(267, 180);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.DragOver += new System.Windows.Forms.DragEventHandler(this.progres3);
@@ -115,10 +117,9 @@ namespace Hackathon_Project_GUI
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(805, 13);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(704, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.Size = new System.Drawing.Size(82, 22);
             this.button1.TabIndex = 4;
             this.button1.Text = "Proveri";
             this.button1.UseVisualStyleBackColor = true;
@@ -130,10 +131,9 @@ namespace Hackathon_Project_GUI
             this.objekat2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.krv;
             this.objekat2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat2.Location = new System.Drawing.Point(618, 75);
-            this.objekat2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat2.Location = new System.Drawing.Point(541, 56);
             this.objekat2.Name = "objekat2";
-            this.objekat2.Size = new System.Drawing.Size(109, 65);
+            this.objekat2.Size = new System.Drawing.Size(95, 49);
             this.objekat2.TabIndex = 6;
             this.objekat2.TabStop = false;
             this.objekat2.Tag = "objekat";
@@ -147,10 +147,9 @@ namespace Hackathon_Project_GUI
             this.objekat3.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.srce;
             this.objekat3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat3.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat3.Location = new System.Drawing.Point(443, 272);
-            this.objekat3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat3.Location = new System.Drawing.Point(388, 204);
             this.objekat3.Name = "objekat3";
-            this.objekat3.Size = new System.Drawing.Size(109, 65);
+            this.objekat3.Size = new System.Drawing.Size(95, 49);
             this.objekat3.TabIndex = 7;
             this.objekat3.TabStop = false;
             this.objekat3.UseWaitCursor = true;
@@ -162,10 +161,9 @@ namespace Hackathon_Project_GUI
             this.objekat4.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.jabuka;
             this.objekat4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat4.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat4.Location = new System.Drawing.Point(293, 75);
-            this.objekat4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat4.Location = new System.Drawing.Point(256, 56);
             this.objekat4.Name = "objekat4";
-            this.objekat4.Size = new System.Drawing.Size(109, 65);
+            this.objekat4.Size = new System.Drawing.Size(95, 49);
             this.objekat4.TabIndex = 8;
             this.objekat4.TabStop = false;
             this.objekat4.UseWaitCursor = true;
@@ -177,10 +175,9 @@ namespace Hackathon_Project_GUI
             this.objekat5.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.buba;
             this.objekat5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat5.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat5.Location = new System.Drawing.Point(677, 288);
-            this.objekat5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat5.Location = new System.Drawing.Point(592, 216);
             this.objekat5.Name = "objekat5";
-            this.objekat5.Size = new System.Drawing.Size(109, 65);
+            this.objekat5.Size = new System.Drawing.Size(95, 49);
             this.objekat5.TabIndex = 9;
             this.objekat5.TabStop = false;
             this.objekat5.UseWaitCursor = true;
@@ -192,10 +189,9 @@ namespace Hackathon_Project_GUI
             this.objekat6.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.list;
             this.objekat6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat6.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat6.Location = new System.Drawing.Point(747, 191);
-            this.objekat6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat6.Location = new System.Drawing.Point(654, 143);
             this.objekat6.Name = "objekat6";
-            this.objekat6.Size = new System.Drawing.Size(109, 65);
+            this.objekat6.Size = new System.Drawing.Size(95, 49);
             this.objekat6.TabIndex = 10;
             this.objekat6.TabStop = false;
             this.objekat6.UseWaitCursor = true;
@@ -207,10 +203,9 @@ namespace Hackathon_Project_GUI
             this.objekat7.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.grasak;
             this.objekat7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat7.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat7.Location = new System.Drawing.Point(272, 272);
-            this.objekat7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat7.Location = new System.Drawing.Point(238, 204);
             this.objekat7.Name = "objekat7";
-            this.objekat7.Size = new System.Drawing.Size(109, 65);
+            this.objekat7.Size = new System.Drawing.Size(95, 49);
             this.objekat7.TabIndex = 11;
             this.objekat7.TabStop = false;
             this.objekat7.UseWaitCursor = true;
@@ -222,10 +217,9 @@ namespace Hackathon_Project_GUI
             this.objekat8.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.trava;
             this.objekat8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat8.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat8.Location = new System.Drawing.Point(558, 214);
-            this.objekat8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat8.Location = new System.Drawing.Point(488, 160);
             this.objekat8.Name = "objekat8";
-            this.objekat8.Size = new System.Drawing.Size(109, 65);
+            this.objekat8.Size = new System.Drawing.Size(95, 49);
             this.objekat8.TabIndex = 12;
             this.objekat8.TabStop = false;
             this.objekat8.UseWaitCursor = true;
@@ -237,10 +231,9 @@ namespace Hackathon_Project_GUI
             this.objekat9.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.borovnica;
             this.objekat9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat9.Location = new System.Drawing.Point(378, 167);
-            this.objekat9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat9.Location = new System.Drawing.Point(331, 125);
             this.objekat9.Name = "objekat9";
-            this.objekat9.Size = new System.Drawing.Size(109, 65);
+            this.objekat9.Size = new System.Drawing.Size(95, 49);
             this.objekat9.TabIndex = 13;
             this.objekat9.TabStop = false;
             this.objekat9.UseWaitCursor = true;
@@ -251,10 +244,9 @@ namespace Hackathon_Project_GUI
             this.objekat10.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.oblak;
             this.objekat10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat10.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat10.Location = new System.Drawing.Point(181, 167);
-            this.objekat10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat10.Location = new System.Drawing.Point(158, 125);
             this.objekat10.Name = "objekat10";
-            this.objekat10.Size = new System.Drawing.Size(109, 65);
+            this.objekat10.Size = new System.Drawing.Size(95, 49);
             this.objekat10.TabIndex = 14;
             this.objekat10.TabStop = false;
             this.objekat10.UseWaitCursor = true;
@@ -266,10 +258,9 @@ namespace Hackathon_Project_GUI
             this.objekat11.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.cizma;
             this.objekat11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat11.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat11.Location = new System.Drawing.Point(68, 272);
-            this.objekat11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat11.Location = new System.Drawing.Point(60, 204);
             this.objekat11.Name = "objekat11";
-            this.objekat11.Size = new System.Drawing.Size(109, 65);
+            this.objekat11.Size = new System.Drawing.Size(95, 49);
             this.objekat11.TabIndex = 15;
             this.objekat11.TabStop = false;
             this.objekat11.UseWaitCursor = true;
@@ -281,10 +272,9 @@ namespace Hackathon_Project_GUI
             this.objekat12.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.talas;
             this.objekat12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.objekat12.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.objekat12.Location = new System.Drawing.Point(778, 118);
-            this.objekat12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.objekat12.Location = new System.Drawing.Point(681, 88);
             this.objekat12.Name = "objekat12";
-            this.objekat12.Size = new System.Drawing.Size(109, 65);
+            this.objekat12.Size = new System.Drawing.Size(95, 49);
             this.objekat12.TabIndex = 16;
             this.objekat12.TabStop = false;
             this.objekat12.UseWaitCursor = true;
@@ -296,10 +286,9 @@ namespace Hackathon_Project_GUI
             this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nazadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nazadButton.Location = new System.Drawing.Point(12, 13);
-            this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nazadButton.Location = new System.Drawing.Point(10, 10);
             this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(45, 45);
+            this.nazadButton.Size = new System.Drawing.Size(39, 34);
             this.nazadButton.TabIndex = 17;
             this.nazadButton.UseVisualStyleBackColor = true;
             this.nazadButton.Click += new System.EventHandler(this.button2_Click);
@@ -308,10 +297,10 @@ namespace Hackathon_Project_GUI
             // 
             // igrica1Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(911, 588);
+            this.ClientSize = new System.Drawing.Size(797, 441);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -329,10 +318,10 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.objekat3);
             this.Controls.Add(this.objekat2);
             this.Controls.Add(this.objekat);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "igrica1Form";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Igrica1Form";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.igrica1Form_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.objekat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

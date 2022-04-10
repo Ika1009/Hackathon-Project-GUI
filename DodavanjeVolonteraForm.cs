@@ -90,15 +90,10 @@ namespace Hackathon_Project_GUI
         {
             nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
         }
-        public void turning_off_music_when_form_closes() //kad se gasi forma
-        {
-            SoundPlayer sp = new SoundPlayer();
-            sp.Stop();
-        }
 
         private void DodavanjeVolonteraForm_FormClosed(object sender, FormClosedEventArgs e)
         {
-            turning_off_music_when_form_closes();
+            PocetniMeniForm.turnOffMusic();
         }
     }
 }

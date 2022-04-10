@@ -50,7 +50,6 @@ namespace Hackathon_Project_GUI
             this.splitContainer1.Cursor = System.Windows.Forms.Cursors.VSplit;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -65,9 +64,8 @@ namespace Hackathon_Project_GUI
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Teal;
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
-            this.splitContainer1.Size = new System.Drawing.Size(850, 529);
-            this.splitContainer1.SplitterDistance = 157;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(744, 397);
+            this.splitContainer1.SplitterDistance = 137;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
@@ -79,9 +77,10 @@ namespace Hackathon_Project_GUI
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(12, 12);
+            this.button2.Location = new System.Drawing.Point(10, 9);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(45, 45);
+            this.button2.Size = new System.Drawing.Size(39, 34);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.idiNazadButton_Click);
@@ -93,9 +92,10 @@ namespace Hackathon_Project_GUI
             this.button1.BackColor = System.Drawing.Color.SeaGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(34, 251);
+            this.button1.Location = new System.Drawing.Point(30, 188);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.Size = new System.Drawing.Size(82, 22);
             this.button1.TabIndex = 0;
             this.button1.Text = "Pretraga";
             this.toolTip2.SetToolTip(this.button1, "Nađite parkinge u vašoj okolini.");
@@ -108,9 +108,10 @@ namespace Hackathon_Project_GUI
             this.pictureBox2.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.info_dugme_belo;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Help;
-            this.pictureBox2.Location = new System.Drawing.Point(646, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(565, 9);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox2.Size = new System.Drawing.Size(26, 22);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -119,12 +120,12 @@ namespace Hackathon_Project_GUI
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.ErrorImage = global::Hackathon_Project_GUI.Properties.Resources.parkingmesta2;
             this.pictureBox1.Image = global::Hackathon_Project_GUI.Properties.Resources.parkingmesta2;
-            this.pictureBox1.Location = new System.Drawing.Point(-28, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-24, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(752, 540);
+            this.pictureBox1.Size = new System.Drawing.Size(658, 406);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -132,15 +133,15 @@ namespace Hackathon_Project_GUI
             // 
             // MapaForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(850, 529);
+            this.ClientSize = new System.Drawing.Size(744, 397);
             this.Controls.Add(this.splitContainer1);
             this.Cursor = System.Windows.Forms.Cursors.Help;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MapaForm";
             this.Text = "MapaForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MapaForm_FormClosed);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();

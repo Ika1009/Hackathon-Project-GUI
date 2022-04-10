@@ -68,10 +68,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(57, 129);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(50, 97);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -79,10 +78,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(576, 748);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(504, 561);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -90,10 +88,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(57, 551);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(50, 413);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -101,10 +98,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(222, 551);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(194, 413);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox4.Size = new System.Drawing.Size(100, 100);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -112,10 +108,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(395, 551);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(346, 413);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox5.Size = new System.Drawing.Size(100, 100);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -123,10 +118,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(576, 551);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(504, 413);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox6.Size = new System.Drawing.Size(100, 100);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
@@ -134,10 +128,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(576, 337);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(504, 253);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox7.Size = new System.Drawing.Size(100, 100);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
@@ -145,10 +138,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(395, 337);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(346, 253);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox8.Size = new System.Drawing.Size(100, 100);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
@@ -156,10 +148,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(222, 337);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(194, 253);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox9.Size = new System.Drawing.Size(100, 100);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
@@ -167,10 +158,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(57, 337);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(50, 253);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 9;
             this.pictureBox10.TabStop = false;
@@ -178,10 +168,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(576, 129);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(504, 97);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox11.Size = new System.Drawing.Size(100, 100);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 10;
             this.pictureBox11.TabStop = false;
@@ -189,10 +178,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(395, 129);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox12.Location = new System.Drawing.Point(346, 97);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox12.Size = new System.Drawing.Size(100, 100);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 11;
             this.pictureBox12.TabStop = false;
@@ -200,10 +188,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Location = new System.Drawing.Point(222, 129);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox13.Location = new System.Drawing.Point(194, 97);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox13.Size = new System.Drawing.Size(100, 100);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 12;
             this.pictureBox13.TabStop = false;
@@ -211,10 +198,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Location = new System.Drawing.Point(395, 748);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox14.Location = new System.Drawing.Point(346, 561);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox14.Size = new System.Drawing.Size(100, 100);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 13;
             this.pictureBox14.TabStop = false;
@@ -222,10 +208,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Location = new System.Drawing.Point(222, 748);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox15.Location = new System.Drawing.Point(194, 561);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox15.Size = new System.Drawing.Size(100, 100);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 14;
             this.pictureBox15.TabStop = false;
@@ -233,10 +218,9 @@ namespace Hackathon_Project_GUI
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Location = new System.Drawing.Point(57, 748);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox16.Location = new System.Drawing.Point(50, 561);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(114, 133);
+            this.pictureBox16.Size = new System.Drawing.Size(100, 100);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 15;
             this.pictureBox16.TabStop = false;
@@ -245,10 +229,9 @@ namespace Hackathon_Project_GUI
             // pocniButton
             // 
             this.pocniButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pocniButton.Location = new System.Drawing.Point(572, 24);
-            this.pocniButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pocniButton.Location = new System.Drawing.Point(500, 18);
             this.pocniButton.Name = "pocniButton";
-            this.pocniButton.Size = new System.Drawing.Size(118, 48);
+            this.pocniButton.Size = new System.Drawing.Size(103, 36);
             this.pocniButton.TabIndex = 16;
             this.pocniButton.Text = "Počni";
             this.pocniButton.UseVisualStyleBackColor = true;
@@ -258,9 +241,9 @@ namespace Hackathon_Project_GUI
             // 
             this.vremeLabel.AutoSize = true;
             this.vremeLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.vremeLabel.Location = new System.Drawing.Point(323, 83);
+            this.vremeLabel.Location = new System.Drawing.Point(283, 62);
             this.vremeLabel.Name = "vremeLabel";
-            this.vremeLabel.Size = new System.Drawing.Size(83, 37);
+            this.vremeLabel.Size = new System.Drawing.Size(62, 30);
             this.vremeLabel.TabIndex = 17;
             this.vremeLabel.Text = "00:60";
             // 
@@ -270,10 +253,9 @@ namespace Hackathon_Project_GUI
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(57, 24);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(50, 18);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 45);
+            this.button1.Size = new System.Drawing.Size(39, 34);
             this.button1.TabIndex = 19;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -282,10 +264,10 @@ namespace Hackathon_Project_GUI
             // 
             // igrica3Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(763, 1003);
+            this.ClientSize = new System.Drawing.Size(668, 752);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.vremeLabel);
             this.Controls.Add(this.pocniButton);
@@ -305,9 +287,9 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "igrica3Form";
             this.Text = "igrica3Form";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.igrica3Form_FormClosed);
             this.Load += new System.EventHandler(this.igrica3Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

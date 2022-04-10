@@ -116,5 +116,16 @@ namespace Hackathon_Project_GUI
             infoButton.FlatAppearance.BorderSize = 0;
             settingsButton.FlatAppearance.BorderSize = 0;
         }
+
+        public static void turnOffMusic() // ugasi muziku
+        {
+            SoundPlayer sp = new SoundPlayer();
+            sp.Stop();
+        }
+
+        private void PocetniMeniForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            turnOffMusic();
+        }
     }
 }
