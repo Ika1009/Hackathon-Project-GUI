@@ -84,5 +84,9 @@ tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
         {
             
         }
+
+        private void BiranjeVolonteraForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+        }
     }
 }
