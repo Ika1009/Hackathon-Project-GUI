@@ -40,6 +40,7 @@ namespace Hackathon_Project_GUI
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nazadButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,7 +68,7 @@ namespace Hackathon_Project_GUI
             this.Column2,
             this.Column3});
             this.tabelaPrikazOsobaDataGriedView.GridColor = System.Drawing.Color.BlueViolet;
-            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(22, 61);
+            this.tabelaPrikazOsobaDataGriedView.Location = new System.Drawing.Point(22, 92);
             this.tabelaPrikazOsobaDataGriedView.Name = "tabelaPrikazOsobaDataGriedView";
             this.tabelaPrikazOsobaDataGriedView.RowHeadersWidth = 51;
             this.tabelaPrikazOsobaDataGriedView.RowTemplate.Height = 25;
@@ -146,12 +147,23 @@ namespace Hackathon_Project_GUI
             this.nazadButton.MouseEnter += new System.EventHandler(this.over);
             this.nazadButton.MouseLeave += new System.EventHandler(this.leave);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(252, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(511, 32);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Lista volontera koji su željni da Vam pomognu:";
+            // 
             // BiranjeVolonteraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(998, 502);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.tabelaPrikazOsobaDataGriedView);
             this.Controls.Add(this.label1);
@@ -176,5 +188,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn brojTelefonaKolona;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.Label label2;
     }
 }

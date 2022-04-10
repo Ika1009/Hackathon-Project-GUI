@@ -228,7 +228,9 @@ namespace Hackathon_Project_GUI
             // 
             // pocniButton
             // 
+            this.pocniButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pocniButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pocniButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.pocniButton.Location = new System.Drawing.Point(500, 18);
             this.pocniButton.Name = "pocniButton";
             this.pocniButton.Size = new System.Drawing.Size(103, 36);
