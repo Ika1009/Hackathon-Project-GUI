@@ -138,5 +138,11 @@ namespace Hackathon_Project_GUI
 
             }
         }
+
+        private void ParkingForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PocetniMeniForm.turnOffMusic();
+
+        }
     }
 }

@@ -48,5 +48,10 @@ namespace Hackathon_Project_GUI
         {
 
         }
+
+        private void CreditsForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PocetniMeniForm.turnOffMusic();
+        }
     }
 }

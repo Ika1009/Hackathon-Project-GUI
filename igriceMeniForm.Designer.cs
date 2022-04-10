@@ -143,6 +143,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.panel1);
             this.Name = "igriceMeniForm";
             this.Text = "igriceMeniForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.igriceMeniForm_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

@@ -31,7 +31,6 @@ namespace Hackathon_Project_GUI
         {
             this.label1 = new System.Windows.Forms.Label();
             this.tabelaPrikazOsobaDataGriedView = new System.Windows.Forms.DataGridView();
-            this.nazadButton = new System.Windows.Forms.Button();
             this.idKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.imeKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prezimeKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,6 +39,7 @@ namespace Hackathon_Project_GUI
             this.brojTelefonaKolona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nazadButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,21 +74,6 @@ namespace Hackathon_Project_GUI
             this.tabelaPrikazOsobaDataGriedView.Size = new System.Drawing.Size(964, 374);
             this.tabelaPrikazOsobaDataGriedView.TabIndex = 5;
             this.tabelaPrikazOsobaDataGriedView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tabelaPrikazOsobaDataGriedView_CellContentClick);
-            // 
-            // nazadButton
-            // 
-            this.nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
-            this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nazadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nazadButton.Location = new System.Drawing.Point(10, 10);
-            this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(39, 34);
-            this.nazadButton.TabIndex = 6;
-            this.nazadButton.UseVisualStyleBackColor = true;
-            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
-            this.nazadButton.MouseEnter += new System.EventHandler(this.over);
-            this.nazadButton.MouseLeave += new System.EventHandler(this.leave);
             // 
             // idKolona
             // 
@@ -146,6 +131,21 @@ namespace Hackathon_Project_GUI
             this.Column3.Name = "Column3";
             this.Column3.Width = 125;
             // 
+            // nazadButton
+            // 
+            this.nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
+            this.nazadButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nazadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nazadButton.Location = new System.Drawing.Point(10, 10);
+            this.nazadButton.Name = "nazadButton";
+            this.nazadButton.Size = new System.Drawing.Size(39, 34);
+            this.nazadButton.TabIndex = 6;
+            this.nazadButton.UseVisualStyleBackColor = true;
+            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
+            this.nazadButton.MouseEnter += new System.EventHandler(this.over);
+            this.nazadButton.MouseLeave += new System.EventHandler(this.leave);
+            // 
             // BiranjeVolonteraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -157,6 +157,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.label1);
             this.Name = "BiranjeVolonteraForm";
             this.Text = "BiranjeVolonteraForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BiranjeVolonteraForm_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.tabelaPrikazOsobaDataGriedView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

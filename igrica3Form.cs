@@ -193,5 +193,11 @@ namespace Hackathon_Project_GUI
         {
             button1.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
         }
+
+        private void igrica3Form_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PocetniMeniForm.turnOffMusic();
+
+        }
     }
 }

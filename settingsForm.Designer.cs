@@ -44,10 +44,9 @@ namespace Hackathon_Project_GUI
             this.ugasiMuzikuButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ugasiMuzikuButton.Font = new System.Drawing.Font("Segoe UI", 1E-09F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ugasiMuzikuButton.ForeColor = System.Drawing.Color.Transparent;
-            this.ugasiMuzikuButton.Location = new System.Drawing.Point(183, 121);
-            this.ugasiMuzikuButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ugasiMuzikuButton.Location = new System.Drawing.Point(160, 91);
             this.ugasiMuzikuButton.Name = "ugasiMuzikuButton";
-            this.ugasiMuzikuButton.Size = new System.Drawing.Size(69, 80);
+            this.ugasiMuzikuButton.Size = new System.Drawing.Size(60, 60);
             this.ugasiMuzikuButton.TabIndex = 0;
             this.ugasiMuzikuButton.Text = "Ugasi muziku";
             this.ugasiMuzikuButton.UseVisualStyleBackColor = false;
@@ -63,10 +62,9 @@ namespace Hackathon_Project_GUI
             this.nazadButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nazadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nazadButton.ForeColor = System.Drawing.Color.Teal;
-            this.nazadButton.Location = new System.Drawing.Point(11, 13);
-            this.nazadButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nazadButton.Location = new System.Drawing.Point(10, 10);
             this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(45, 45);
+            this.nazadButton.Size = new System.Drawing.Size(39, 34);
             this.nazadButton.TabIndex = 1;
             this.nazadButton.UseVisualStyleBackColor = false;
             this.nazadButton.Click += new System.EventHandler(this.button1_Click_1);
@@ -81,10 +79,9 @@ namespace Hackathon_Project_GUI
             this.muzika1Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.muzika1Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.muzika1Button.ForeColor = System.Drawing.Color.Teal;
-            this.muzika1Button.Location = new System.Drawing.Point(183, 216);
-            this.muzika1Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.muzika1Button.Location = new System.Drawing.Point(160, 162);
             this.muzika1Button.Name = "muzika1Button";
-            this.muzika1Button.Size = new System.Drawing.Size(69, 80);
+            this.muzika1Button.Size = new System.Drawing.Size(60, 60);
             this.muzika1Button.TabIndex = 2;
             this.muzika1Button.UseVisualStyleBackColor = false;
             this.muzika1Button.Click += new System.EventHandler(this.muzika1Button_Click);
@@ -99,27 +96,26 @@ namespace Hackathon_Project_GUI
             this.muzika2button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.muzika2button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.muzika2button.ForeColor = System.Drawing.Color.Teal;
-            this.muzika2button.Location = new System.Drawing.Point(183, 308);
-            this.muzika2button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.muzika2button.Location = new System.Drawing.Point(160, 231);
             this.muzika2button.Name = "muzika2button";
-            this.muzika2button.Size = new System.Drawing.Size(69, 80);
+            this.muzika2button.Size = new System.Drawing.Size(60, 60);
             this.muzika2button.TabIndex = 3;
             this.muzika2button.UseVisualStyleBackColor = false;
             this.muzika2button.Click += new System.EventHandler(this.muzika2button_Click);
             // 
             // settingsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(416, 444);
+            this.ClientSize = new System.Drawing.Size(364, 333);
             this.Controls.Add(this.muzika2button);
             this.Controls.Add(this.muzika1Button);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.ugasiMuzikuButton);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "settingsForm";
             this.Text = "settingsForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.settingsForm_FormClosed);
             this.Load += new System.EventHandler(this.settingsForm_Load);
             this.ResumeLayout(false);
 

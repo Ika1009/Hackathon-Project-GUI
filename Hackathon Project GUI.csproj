@@ -5,6 +5,10 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>Hackathon_Project_GUI</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+
+	  <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	  <DebugType>None</DebugType>
+	  <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
 
   <ItemGroup>

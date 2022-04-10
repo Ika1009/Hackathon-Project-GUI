@@ -90,5 +90,10 @@ namespace Hackathon_Project_GUI
         {
             nazadButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme;
         }
+
+        private void DodavanjeVolonteraForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            PocetniMeniForm.turnOffMusic();
+        }
     }
 }

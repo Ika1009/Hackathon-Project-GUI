@@ -227,6 +227,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DodavanjeVolonteraForm";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DodavanjeVolonteraForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
