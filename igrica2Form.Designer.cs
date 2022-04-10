@@ -168,10 +168,9 @@ namespace Hackathon_Project_GUI
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(111)))), ((int)(((byte)(150)))));
-            this.pictureBox1.Location = new System.Drawing.Point(457, 100);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(522, 104);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(9, 288);
+            this.pictureBox1.Size = new System.Drawing.Size(10, 413);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -201,9 +200,10 @@ namespace Hackathon_Project_GUI
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(111)))), ((int)(((byte)(150)))));
-            this.pictureBox4.Location = new System.Drawing.Point(94, 386);
+            this.pictureBox4.Location = new System.Drawing.Point(113, 515);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(372, 10);
+            this.pictureBox4.Size = new System.Drawing.Size(419, 13);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -840,8 +840,7 @@ namespace Hackathon_Project_GUI
             // pictureBox62
             // 
             this.pictureBox62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(142)))), ((int)(((byte)(255)))));
-            this.pictureBox62.Location = new System.Drawing.Point(448, 78);
-            this.pictureBox62.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox62.Location = new System.Drawing.Point(495, 104);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(24, 22);
             this.pictureBox62.TabIndex = 61;
@@ -863,7 +862,7 @@ namespace Hackathon_Project_GUI
             this.pictureBox63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(111)))), ((int)(((byte)(150)))));
             this.pictureBox63.Location = new System.Drawing.Point(74, 55);
             this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(10, 322);
+            this.pictureBox63.Size = new System.Drawing.Size(11, 420);
             this.pictureBox63.TabIndex = 63;
             this.pictureBox63.TabStop = false;
             this.pictureBox63.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
@@ -986,7 +985,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox39);
             this.Controls.Add(this.pictureBox63);
-            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
             this.HelpButton = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "igrica2Form";

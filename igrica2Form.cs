@@ -45,8 +45,6 @@ namespace Hackathon_Project_GUI
 
         private void movetostart()
         {
-            Cursor cur = new Cursor(Application.StartupPath + "\\smajli.cur");
-            this.Cursor = cur;
             Point startingpoint = pictureBox61.Location;
             startingpoint.Offset(10, 15);
             Cursor.Position = PointToScreen(startingpoint);
