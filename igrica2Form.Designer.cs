@@ -867,7 +867,7 @@ namespace Hackathon_Project_GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(750, 840);
             this.Controls.Add(this.button1);
@@ -936,7 +936,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox39);
             this.Controls.Add(this.pictureBox63);
-            this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.HelpButton = true;
             this.Name = "igrica2Form";
             this.Text = "igrica2Form";
