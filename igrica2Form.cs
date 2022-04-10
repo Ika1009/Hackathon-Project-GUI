@@ -25,13 +25,13 @@ namespace Hackathon_Project_GUI
 
         private void pictureBox20_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Dodirnuli ste zid! Pokusajte ponovo!");
+            MessageBox.Show("Dodirnuli ste zid! Pokušajte ponovo!");
             movetostart();
         }
 
         private void pictureBox62_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Pobedili ste! Cestitam!");
+            MessageBox.Show("Pobedili ste! Kraj igre!");
             this.Hide();
             igriceMeniForm igricemeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
             igricemeni.Show(); // pokazuje formu - igriceMeniForma
@@ -39,7 +39,7 @@ namespace Hackathon_Project_GUI
 
         private void pictureBox60_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Dodirnuli ste zid! Pokusajte ponovo!");
+            MessageBox.Show("Dodirnuli ste zid! Pokušajte ponovo!");
             movetostart();
         }
 

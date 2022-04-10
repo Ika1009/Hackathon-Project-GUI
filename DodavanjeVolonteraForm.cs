@@ -95,5 +95,10 @@ namespace Hackathon_Project_GUI
         {
             PocetniMeniForm.turnOffMusic();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

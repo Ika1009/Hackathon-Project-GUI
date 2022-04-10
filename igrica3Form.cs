@@ -47,23 +47,29 @@ namespace Hackathon_Project_GUI
                 };
             }
         }
+
         private void PocniVreme()
         {
+            vreme = 60;
             tajmer.Start();
             tajmer.Tick += delegate // kada tikne desava se ovo pod zagradama, smanji se vreme za jednu sekundu...
             {
                 vreme--;
-                if (vreme < 0) // kad je vreme ispod nula tj kad je gotovo
+                if (vreme <= 0) // kad je vreme ispod nula tj kad je gotovo
                 {
                     tajmer.Stop();
-                    MessageBox.Show("Kraj vremena!");
-                    ResetujSlike();
+                    MessageBox.Show("Vreme je isteklo! Kraj igre!");
+                    vreme = int.MaxValue;
+                    this.Hide(); // sakriva ovu formu
+                    igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
+                    igriceMeni.Show(); // pokazuje formu - igriceMeniForma
                 }
                 // ispisivanje vremena
                 var sekund_Vreme = TimeSpan.FromSeconds(vreme);
                 vremeLabel.Text = "00: " + vreme.ToString();
             };
         }
+
         private void ResetujSlike() // resetuje slike
         {
             foreach (var slika in pictureBoxes)
@@ -73,9 +79,8 @@ namespace Hackathon_Project_GUI
             }
             SakrijSlike();
             PostaviRandomSlike();
-            vreme = 60;
-            tajmer.Start();
         }
+
         private void SakrijSlike() // nixa mora da napravi sliku i nazove je znak_pitanja
         {
             foreach (var slika in pictureBoxes)
@@ -83,6 +88,7 @@ namespace Hackathon_Project_GUI
                 slika.Image = Properties.Resources.debela_macka; //postavlja sliku na znak pitanja
             }
         }
+
         private PictureBox SlobodnoMesto()
         {
             int broj;
@@ -92,6 +98,7 @@ namespace Hackathon_Project_GUI
                 broj = r.Next(0, pictureBoxes.Count());
             }
             while (pictureBoxes[broj].Tag != null);
+
             return pictureBoxes[broj];
         }
 
@@ -111,6 +118,7 @@ namespace Hackathon_Project_GUI
             jel_moze_da_klikne = true;
             klik_vreme.Stop();
         }
+
         private void klikneSliku(object sender, EventArgs e)
         {
             if (!jel_moze_da_klikne) return;
@@ -140,10 +148,13 @@ namespace Hackathon_Project_GUI
             }
             prvi_pogodak = null;
             if (pictureBoxes.Any(p => p.Visible)) return;
-            MessageBox.Show(" Pobedio si \n Probaj ponovo");
-            ResetujSlike();
-
+            MessageBox.Show("Pobedili ste! Kraj igre!");
+            vreme = int.MaxValue;
+            this.Hide(); // sakriva ovu formu
+            igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
+            igriceMeni.Show(); // pokazuje formu - igriceMeniForma
         }
+
         private void zapocniIgru(object sender, EventArgs e)
         {
             jel_moze_da_klikne = true;
@@ -173,6 +184,7 @@ namespace Hackathon_Project_GUI
 
         private void nazadButton_Click(object sender, EventArgs e)
         {
+            vreme = int.MaxValue;
             this.Close();
             PocetniMeniForm pocetniMeni = new PocetniMeniForm();
             pocetniMeni.Show();
@@ -180,10 +192,12 @@ namespace Hackathon_Project_GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
+            vreme = int.MaxValue;
             this.Hide();
             igriceMeniForm igrica = new igriceMeniForm();
             igrica.Show();
         }
+
         private void over(object sender, EventArgs e)
         {
             button1.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.nazad_dugme_oc;
@@ -197,7 +211,6 @@ namespace Hackathon_Project_GUI
         private void igrica3Form_FormClosed(object sender, FormClosedEventArgs e)
         {
             PocetniMeniForm.turnOffMusic();
-
         }
     }
 }
