@@ -249,51 +249,51 @@ namespace Hackathon_Project_GUI
         {
             //broji broj tacnih
             int tacno = 0;
-            if(objekat.Bottom>=356 && objekat.Left <= 181)
+            if(objekat.Bottom>=pictureBox2.Top && objekat.Left <= pictureBox2.Right)
             {
                 tacno++;
             }
-            if (objekat2.Bottom >= 356 && objekat2.Left <= 181)
+            if (objekat2.Bottom >= pictureBox2.Top && objekat2.Left <= pictureBox2.Right)
             {
                 tacno++;
             }
-            if (objekat3.Bottom >= 356 && objekat.Left <= 181)
+            if (objekat3.Bottom >= pictureBox2.Top && objekat3.Left <= pictureBox2.Right)
             {
                 tacno++;
             }
-            if (objekat4.Bottom >= 356 && objekat.Left <= 181)
+            if (objekat4.Bottom >= pictureBox2.Top && objekat4.Left <= pictureBox2.Right)
             {
                 tacno++;
             }
-            if (objekat5.Bottom >= 356 && objekat5.Left > 181 && objekat5.Left <=513)
+            if (objekat5.Bottom >= pictureBox2.Top && objekat5.Left > pictureBox2.Right && objekat5.Left <=pictureBox3.Right)
             {
                 tacno++;
             }
-            if (objekat6.Bottom >= 356 && objekat6.Left > 181 && objekat6.Left <= 513)
+            if (objekat6.Bottom >= pictureBox2.Top && objekat6.Left > pictureBox2.Right && objekat6.Left <= pictureBox3.Right)
             {
                 tacno++;
             }
-            if (objekat7.Bottom >= 356 && objekat7.Left > 181 && objekat7.Left <= 513)
+            if (objekat7.Bottom >= pictureBox2.Top && objekat7.Left > pictureBox2.Right && objekat7.Left <= pictureBox3.Right)
             {
                 tacno++;
             }
-            if (objekat8.Bottom >= 356 && objekat8.Left > 181 && objekat8.Left <= 513)
+            if (objekat8.Bottom >= pictureBox2.Top && objekat8.Left > pictureBox2.Right && objekat8.Left <= pictureBox3.Right)
             {
                 tacno++;
             }
-            if (objekat9.Bottom >= 356 && objekat9.Left > 513 && objekat9.Left <= 915)
+            if (objekat9.Bottom >= pictureBox2.Top && objekat9.Left > pictureBox3.Right && objekat9.Left <= pictureBox4.Right)
             {
                 tacno++;
             }
-            if (objekat10.Bottom >= 356 && objekat10.Left > 513 && objekat10.Left <= 915)
+            if (objekat10.Bottom >= pictureBox2.Top && objekat10.Left > pictureBox3.Right && objekat10.Left <= pictureBox4.Right)
             {
                 tacno++;
             }
-            if (objekat11.Bottom >= 356 && objekat11.Left > 513 && objekat11.Left <= 915)
+            if (objekat11.Bottom >= pictureBox2.Top && objekat11.Left > pictureBox3.Right && objekat11.Left <= pictureBox4.Right)
             {
                 tacno++;
             }
-            if (objekat12.Bottom >= 356 && objekat12.Left > 513 && objekat12.Left <= 915)
+            if (objekat12.Bottom >= pictureBox2.Top && objekat12.Left > pictureBox3.Right && objekat12.Left <= pictureBox4.Right)
             {
                 tacno++;
             }
