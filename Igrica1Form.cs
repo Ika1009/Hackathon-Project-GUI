@@ -249,51 +249,51 @@ namespace Hackathon_Project_GUI
         {
             //broji broj tacnih
             int tacno = 0;
-            if(objekat.Top>=356 && objekat.Left <= 181)
+            if(objekat.Bottom>=356 && objekat.Left <= 181)
             {
                 tacno++;
             }
-            if (objekat2.Top >= 356 && objekat2.Left <= 181)
+            if (objekat2.Bottom >= 356 && objekat2.Left <= 181)
             {
                 tacno++;
             }
-            if (objekat3.Top >= 356 && objekat.Left <= 181)
+            if (objekat3.Bottom >= 356 && objekat.Left <= 181)
             {
                 tacno++;
             }
-            if (objekat4.Top >= 356 && objekat.Left <= 181)
+            if (objekat4.Bottom >= 356 && objekat.Left <= 181)
             {
                 tacno++;
             }
-            if (objekat5.Top >= 356 && objekat5.Left > 181 && objekat5.Left <=513)
+            if (objekat5.Bottom >= 356 && objekat5.Left > 181 && objekat5.Left <=513)
             {
                 tacno++;
             }
-            if (objekat6.Top >= 356 && objekat6.Left > 181 && objekat6.Left <= 513)
+            if (objekat6.Bottom >= 356 && objekat6.Left > 181 && objekat6.Left <= 513)
             {
                 tacno++;
             }
-            if (objekat7.Top >= 356 && objekat7.Left > 181 && objekat7.Left <= 513)
+            if (objekat7.Bottom >= 356 && objekat7.Left > 181 && objekat7.Left <= 513)
             {
                 tacno++;
             }
-            if (objekat8.Top >= 356 && objekat8.Left > 181 && objekat8.Left <= 513)
+            if (objekat8.Bottom >= 356 && objekat8.Left > 181 && objekat8.Left <= 513)
             {
                 tacno++;
             }
-            if (objekat9.Top >= 356 && objekat9.Left > 513 && objekat9.Left <= 915)
+            if (objekat9.Bottom >= 356 && objekat9.Left > 513 && objekat9.Left <= 915)
             {
                 tacno++;
             }
-            if (objekat10.Top >= 356 && objekat10.Left > 513 && objekat10.Left <= 915)
+            if (objekat10.Bottom >= 356 && objekat10.Left > 513 && objekat10.Left <= 915)
             {
                 tacno++;
             }
-            if (objekat11.Top >= 356 && objekat11.Left > 513 && objekat11.Left <= 915)
+            if (objekat11.Bottom >= 356 && objekat11.Left > 513 && objekat11.Left <= 915)
             {
                 tacno++;
             }
-            if (objekat12.Top >= 356 && objekat12.Left > 513 && objekat12.Left <= 915)
+            if (objekat12.Bottom >= 356 && objekat12.Left > 513 && objekat12.Left <= 915)
             {
                 tacno++;
             }
@@ -313,6 +313,7 @@ namespace Hackathon_Project_GUI
                 igrica.Show();
             }
         }
+
         
         //nebitno
         private void progres1(object sender, EventArgs e)
@@ -369,6 +370,11 @@ namespace Hackathon_Project_GUI
         private void igrica1Form_FormClosed(object sender, FormClosedEventArgs e)
         {
             PocetniMeniForm.turnOffMusic();
+        }
+
+        private void objekat4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

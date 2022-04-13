@@ -163,7 +163,7 @@
             // 
             this.gradtextBox.AcceptsReturn = true;
             this.gradtextBox.AcceptsTab = true;
-            this.gradtextBox.Location = new System.Drawing.Point(185, 307);
+            this.gradtextBox.Location = new System.Drawing.Point(185, 347);
             this.gradtextBox.Name = "gradtextBox";
             this.gradtextBox.Size = new System.Drawing.Size(125, 27);
             this.gradtextBox.TabIndex = 5;
@@ -173,7 +173,7 @@
             // 
             this.opstinaTextBox.AcceptsReturn = true;
             this.opstinaTextBox.AcceptsTab = true;
-            this.opstinaTextBox.Location = new System.Drawing.Point(185, 347);
+            this.opstinaTextBox.Location = new System.Drawing.Point(185, 307);
             this.opstinaTextBox.Name = "opstinaTextBox";
             this.opstinaTextBox.Size = new System.Drawing.Size(125, 27);
             this.opstinaTextBox.TabIndex = 6;
@@ -199,7 +199,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(80, 310);
+            this.label7.Location = new System.Drawing.Point(80, 354);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 20);
             this.label7.TabIndex = 16;
@@ -208,7 +208,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(80, 350);
+            this.label8.Location = new System.Drawing.Point(80, 314);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(41, 20);
             this.label8.TabIndex = 17;
