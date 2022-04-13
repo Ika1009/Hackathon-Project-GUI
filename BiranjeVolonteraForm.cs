@@ -32,12 +32,12 @@ namespace Hackathon_Project_GUI
                          osobe.Add(novaOsoba);
                      }
                  }
-             }               
-             catch (Exception ex)
+             }
+            catch (Exception ex)
              {
-                MessageBox.Show("Nema dostupnih volontera!");
+                //MessageBox.Show("Nema dostupnih volontera!");
                 return;
-            }
+             }
 
             tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
 
