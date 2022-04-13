@@ -16,35 +16,34 @@ namespace Hackathon_Project_GUI
         List<Osoba> osobe = new List<Osoba>();
         public BiranjeVolonteraForm()
         {
+
             InitializeComponent();
+           
+             try
+             {
 
-            //StreamReader sr = new StreamReader(@"dataFajl.txt");
-            try
-            {
-
-                using (StreamReader sr = new StreamReader(@"dataFajl.txt"))
-                {
-                    string linija;
-                    while ((linija = sr.ReadLine()) != null)
-                    {
-                        string[] reci = linija.Split(",");
-                        Osoba novaOsoba = new Osoba(reci[0], reci[1], reci[2], reci[3], reci[4], reci[5], reci[6]);
-                        osobe.Add(novaOsoba);
-                    }
-                }
+                 using (StreamReader sr = new StreamReader(@"dataFajl.txt"))
+                 {
+                     string linija;
+                     while ((linija = sr.ReadLine()) != null)
+                     {
+                         string[] reci = linija.Split(",");
+                         Osoba novaOsoba = new Osoba(reci[0], reci[1], reci[2], reci[3], reci[4], reci[5], reci[6]);
+                         osobe.Add(novaOsoba);
+                     }
+                 }
+             }               
+             catch (Exception ex)
+             {
+                MessageBox.Show("Nema dostupnih volontera!");
+                return;
             }
-            catch (Exception ex)
+
+            tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
+
+            for (int i = 1; i < osobe.Count; i++)
             {
-                MessageBox.Show(ex.Message);
-            }
-
-
-tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
-
-
-            for (int i = 0; i < osobe.Count; i++)
-            {
-                tabelaPrikazOsobaDataGriedView[0, i].Value = i+1;
+                tabelaPrikazOsobaDataGriedView[0, i].Value = i + 1;
                 tabelaPrikazOsobaDataGriedView[1, i].Value = osobe[i].ime;
                 tabelaPrikazOsobaDataGriedView[2, i].Value = osobe[i].prezime;
                 tabelaPrikazOsobaDataGriedView[3, i].Value = osobe[i].pol;
@@ -54,13 +53,6 @@ tabelaPrikazOsobaDataGriedView.Rows.Add(osobe.Count);
                 tabelaPrikazOsobaDataGriedView[7, i].Value = osobe[i].opstina;
 
             }
-            //tabelaPrikazOsobaDataGriedView.Columns.Add()
-        }
-
-        private void nadjiVolonteraButton_Click(object sender, EventArgs e)
-        {
-            
-
         }
 
         private void nazadButton_Click(object sender, EventArgs e)
